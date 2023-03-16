@@ -8,7 +8,7 @@ public class Program
         for (int i = 0; i < 8; i++)
         {
             Console.WriteLine();
-            for (int j = 0; j < 10; j++)
+            for (int j = 0; j < 7; j++)
             {
                 Console.Write(myArr[i, j] + " ");
 
@@ -22,14 +22,14 @@ public class Program
         int t;
         for (int i = 0; i < 8; i++)
         {
-            for (int j = 0; j < 10; j++)
+            for (int j = 0; j < 7; j++)
             {
                 t = rand.Next(1, 10);
                 if (t > k)
                     myArr[i, j] = t - k;
                 else myArr[i, j] = 0;
             }
-            k +=1;
+            k = k + 1;
         }
     }
 
@@ -73,7 +73,7 @@ public class Program
     }
     public static void Main()
     {
-        int[,] myArr = new int[6, 7]; // Текущее множество парето-оптимальных векторов
+        int[,] myArr = new int[8, 7]; // Текущее множество парето-оптимальных векторов
 
         GenArray(myArr);
         Console.WriteLine("Исходный массив:");
@@ -85,13 +85,13 @@ public class Program
         Boolean flag = true;
         do
         {
-            int[] a = new int[10];
-            int[] b = new int[10];
-            FillArray(myArr, a, 10, i);
-            FillArray(myArr, b, 10, j);
+            int[] a = new int[7];
+            int[] b = new int[7];
+            FillArray(myArr, a, 7, i);
+            FillArray(myArr, b, 7, j);
             if (CompareArray(a, b)) // ar 2
             {
-                ZeroArray(myArr, 10, j); //Шаг 3
+                ZeroArray(myArr, 7, j); //Шаг 3
                 if (j < N) // Шаг 4
                 {
                     j = j + 1;
@@ -110,13 +110,13 @@ public class Program
             }
             else
             {
-                int[] c = new int[10];
-                int[] d = new int[10];
-                FillArray(myArr, c, 10, j);
-                FillArray(myArr, d, 10, i);
+                int[] c = new int[7];
+                int[] d = new int[7];
+                FillArray(myArr, c, 7, j);
+                FillArray(myArr, d, 7, i);
                 if (CompareArray(c, d)) // Шаг 5
                 {
-                    ZeroArray(myArr, 10, i); // Шаг 6
+                    ZeroArray(myArr, 7, i); // Шаг 6
                     if (i < (N - 1)) // Шаг 7
                     {
                         i = i + 1;
