@@ -1,0 +1,33 @@
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.csproj.AssemblyReference.cache
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.csproj.SuggestedBindingRedirects.cache
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.Properties.Resources.resources
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.csproj.GenerateResource.cache
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.csproj.CoreCompileInputs.cache
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\bin\Debug\upr3.exe.config
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\bin\Debug\upr3.exe
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\bin\Debug\upr3.pdb
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.Form1.resources
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.exe
+C:\Users\sergs\Desktop\учеба\4 семак\Математические основы принятия решений\upr3\upr3\obj\Debug\upr3.pdb
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.csproj.AssemblyReference.cache
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.Form1.resources
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.Properties.Resources.resources
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.csproj.GenerateResource.cache
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.csproj.CoreCompileInputs.cache
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.exe
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.pdb
+C:\Users\Вадим\source\repos\upr3\upr3\bin\Debug\upr3.exe.config
+C:\Users\Вадим\source\repos\upr3\upr3\bin\Debug\upr3.exe
+C:\Users\Вадим\source\repos\upr3\upr3\bin\Debug\upr3.pdb
+C:\Users\Вадим\source\repos\upr3\upr3\obj\Debug\upr3.csproj.SuggestedBindingRedirects.cache
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\bin\Debug\upr3.exe.config
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\bin\Debug\upr3.exe
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\bin\Debug\upr3.pdb
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.csproj.AssemblyReference.cache
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.csproj.SuggestedBindingRedirects.cache
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.Form1.resources
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.Properties.Resources.resources
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.csproj.GenerateResource.cache
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.csproj.CoreCompileInputs.cache
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.exe
+F:\RGRTU\Математические основы принятия решений\Упр 3\upr3\upr3\obj\Debug\upr3.pdb
