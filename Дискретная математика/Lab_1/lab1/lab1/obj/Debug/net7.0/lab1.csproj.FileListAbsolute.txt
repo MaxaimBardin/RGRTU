@@ -1,0 +1,15 @@
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\bin\Debug\net7.0\lab1.exe
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\bin\Debug\net7.0\lab1.deps.json
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\bin\Debug\net7.0\lab1.runtimeconfig.json
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\bin\Debug\net7.0\lab1.dll
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\bin\Debug\net7.0\lab1.pdb
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.csproj.AssemblyReference.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.AssemblyInfoInputs.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.AssemblyInfo.cs
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.dll
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\refint\lab1.dll
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.pdb
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\lab1.genruntimeconfig.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_1\lab1\lab1\obj\Debug\net7.0\ref\lab1.dll
