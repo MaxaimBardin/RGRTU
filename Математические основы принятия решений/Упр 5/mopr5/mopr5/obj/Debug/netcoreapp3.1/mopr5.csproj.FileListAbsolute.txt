@@ -1,0 +1,32 @@
+C:\Users\Вадим\source\repos\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.exe
+C:\Users\Вадим\source\repos\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.deps.json
+C:\Users\Вадим\source\repos\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.runtimeconfig.json
+C:\Users\Вадим\source\repos\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.runtimeconfig.dev.json
+C:\Users\Вадим\source\repos\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.dll
+C:\Users\Вадим\source\repos\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.pdb
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.csproj.AssemblyReference.cache
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.Form1.resources
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.csproj.GenerateResource.cache
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.AssemblyInfoInputs.cache
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.AssemblyInfo.cs
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.csproj.CoreCompileInputs.cache
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.dll
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.pdb
+C:\Users\Вадим\source\repos\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.genruntimeconfig.cache
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.exe
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.deps.json
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.runtimeconfig.json
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.runtimeconfig.dev.json
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.dll
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\bin\Debug\netcoreapp3.1\mopr5.pdb
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.csproj.AssemblyReference.cache
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.Form1.resources
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.csproj.GenerateResource.cache
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.GeneratedMSBuildEditorConfig.editorconfig
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.AssemblyInfoInputs.cache
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.AssemblyInfo.cs
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.csproj.CoreCompileInputs.cache
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.dll
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.pdb
+F:\RGRTU\Математические основы принятия решений\Упр 5\mopr5\mopr5\obj\Debug\netcoreapp3.1\mopr5.genruntimeconfig.cache
