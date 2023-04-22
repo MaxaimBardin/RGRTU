@@ -31,8 +31,6 @@ public static class Program
             {
                 if (matInc.Get(x, y) == 1 || matInc.Get(x, y) == -1)
                 {
-
-
                     if (value1 == null)
                     {
                         value1 = y;
@@ -121,9 +119,6 @@ public static class Program
             { 0,0,0,1,0,1,0,1,1,1,0,0,0,0}
         });
         return mat;
-
-        
-        
 
             /*{ 0,0,0,0,0,0,0},
               { 0,0,0,0,0,0,0},
