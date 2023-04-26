@@ -1,0 +1,15 @@
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\bin\Debug\net7.0\LabPrima.exe
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\bin\Debug\net7.0\LabPrima.deps.json
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\bin\Debug\net7.0\LabPrima.runtimeconfig.json
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\bin\Debug\net7.0\LabPrima.dll
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\bin\Debug\net7.0\LabPrima.pdb
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.csproj.AssemblyReference.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.AssemblyInfoInputs.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.AssemblyInfo.cs
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.csproj.CoreCompileInputs.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.dll
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\refint\LabPrima.dll
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.pdb
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\LabPrima.genruntimeconfig.cache
+C:\Users\Maxim\Documents\RGRTU\Дискретная математика\Lab_3\LabPrima\LabPrima\obj\Debug\net7.0\ref\LabPrima.dll
