@@ -1,0 +1,15 @@
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\bin\Debug\net7.0\Lab2DinamicProg.exe
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\bin\Debug\net7.0\Lab2DinamicProg.deps.json
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\bin\Debug\net7.0\Lab2DinamicProg.runtimeconfig.json
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\bin\Debug\net7.0\Lab2DinamicProg.dll
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\bin\Debug\net7.0\Lab2DinamicProg.pdb
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.csproj.AssemblyReference.cache
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.GeneratedMSBuildEditorConfig.editorconfig
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.AssemblyInfoInputs.cache
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.AssemblyInfo.cs
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.csproj.CoreCompileInputs.cache
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.dll
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\refint\Lab2DinamicProg.dll
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.pdb
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\Lab2DinamicProg.genruntimeconfig.cache
+F:\RGRTU\Дискретная математика\Lab_2\Lab2DinamicProg\Lab2DinamicProg\obj\Debug\net7.0\ref\Lab2DinamicProg.dll
