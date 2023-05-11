@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UFxy/hoQAsgMb2asppwLfP5YrLctu7AcTtYOLXxvv48WOWqA1Ms/QRvJtH3b06OTr+tVuCiYtmcET5x7WtPq+g==",
+  "dgSpecHash": "JISyFOTC+E1Wr/X/9g5Z3Hk/BLA9NUMTUannqCcwHJgpgwjvu/197loSln7PXsXrYGpAoVCcrfvzxXptYYP4qQ==",
   "success": true,
-  "projectFilePath": "F:\\RGRTU\\Математические основы принятия решений\\Упр 6\\MOPR6\\MOPR6\\MOPR6.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Maxim\\Documents\\RGRTU\\Математические основы принятия решений\\Упр 6\\MOPR6\\MOPR6\\MOPR6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
