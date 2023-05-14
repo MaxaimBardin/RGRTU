@@ -23,18 +23,28 @@ alter table Mentor
 go
 alter table Client
     add constraint FK_Clients_Mentors foreign key(MentorId) references Mentor(MentorId)
+go
+create table SubscriprionType
+(
+    SubscriptionTypeId int not null identity(1,1),
+    NameSubscription varchar(20) not null,
+    Description varchar(100) not null,
+    Cost int not null
+)
+alter table SubscriprionType
+    add constraint PK_SubscriprionType primary key(SubscriptionTypeId)
 create table Subscription
 (
     SubscriptionId int not null identity(1,1),
-    NameSubscription varchar(20) not null,
-    Cost int not null,
+    SubscriptionTypeId int not null,
     ClientId int not null
 )
 go
 alter table Subscription
     add constraint PK_Subscription primary key(SubscriptionId)
 go
-
+alter table Subscription
+    add constraint FK_SubscriprionType_Subscription foreign key(SubscriptionTypeId) references SubscriprionType(SubscriptionTypeId)
 alter table Subscription
     add constraint FK_Client_Subscription foreign key(ClientId) references Client(ClientId)
 create table Schedule
