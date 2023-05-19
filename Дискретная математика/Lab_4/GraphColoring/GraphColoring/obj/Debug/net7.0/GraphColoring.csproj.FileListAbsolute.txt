@@ -1,0 +1,15 @@
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\bin\Debug\net7.0\GraphColoring.exe
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\bin\Debug\net7.0\GraphColoring.deps.json
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\bin\Debug\net7.0\GraphColoring.runtimeconfig.json
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\bin\Debug\net7.0\GraphColoring.dll
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\bin\Debug\net7.0\GraphColoring.pdb
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.csproj.AssemblyReference.cache
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.GeneratedMSBuildEditorConfig.editorconfig
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.AssemblyInfoInputs.cache
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.AssemblyInfo.cs
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.csproj.CoreCompileInputs.cache
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.dll
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\refint\GraphColoring.dll
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.pdb
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\GraphColoring.genruntimeconfig.cache
+F:\RGRTU\Дискретная математика\Lab_4\GraphColoring\GraphColoring\obj\Debug\net7.0\ref\GraphColoring.dll

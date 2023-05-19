@@ -1,0 +1,15 @@
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.csproj.AssemblyReference.cache
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.GeneratedMSBuildEditorConfig.editorconfig
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.AssemblyInfoInputs.cache
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.AssemblyInfo.cs
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.csproj.CoreCompileInputs.cache
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\bin\Debug\net7.0\Lab3.exe
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\bin\Debug\net7.0\Lab3.deps.json
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\bin\Debug\net7.0\Lab3.runtimeconfig.json
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\bin\Debug\net7.0\Lab3.dll
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\bin\Debug\net7.0\Lab3.pdb
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.dll
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\refint\Lab3.dll
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.pdb
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\Lab3.genruntimeconfig.cache
+F:\RGRTU\Дискретная математика\Lab_3\Lab3\Lab3\obj\Debug\net7.0\ref\Lab3.dll
