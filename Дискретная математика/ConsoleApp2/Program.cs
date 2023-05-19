@@ -11,16 +11,15 @@ public static class Program
         _matIncidents = CreateMatrixIncedent();
 
         _matSmegnost = CreateMatrixSmegnost(_matIncidents);
-        
 
-        Console.WriteLine(_matIncidents + "\n\n\n\n\n" + _matSmegnost);
+
+        Console.WriteLine(_matSmegnost);
+
     }
 
     private static Matrix CreateMatrixSmegnost(Matrix matInc)
     {
         var matSmg = new Matrix(7, 7);
-
-
 
         for (var x = 0; x < 14; x++)
         {
@@ -44,7 +43,7 @@ public static class Program
                     {
                         matSmg.Set(value1.Value, value2.Value, 1);
                         matSmg.Set(value2.Value, value1.Value, 1);
-                        if (matInc.Get(x,value2.Value) == -1)
+                        if (matInc.Get(x, value2.Value) == -1)
                         {
                             matSmg.Set(value1.Value, value2.Value, 0);
                         }
@@ -54,7 +53,6 @@ public static class Program
                         }
                         break;
                     }
-                    
                 }
             }
 
@@ -63,8 +61,10 @@ public static class Program
                 matSmg.Set(value1.Value, value1.Value, 1);
             }
         }
+
         return matSmg;
     }
+
 
     public class Matrix
     {
@@ -96,16 +96,24 @@ public static class Program
 
             for (var x = 0; x < _matrixData.GetLength(0); x++)
             {
+                result += $"Вершина {x + 1}: ";
+
                 for (var y = 0; y < _matrixData.GetLength(1); y++)
                 {
-                    result += _matrixData[x,y] + ", ";
+                    if (_matrixData[x, y] != 0)
+                    {
+                        result += $"{y + 1} ";
+                    }
                 }
-                result+= "\n";
+
+                result += "\n";
             }
+
             return result;
         }
+
     }
-    
+
     private static Matrix CreateMatrixIncedent()
     {
         var mat = new Matrix(new float[,]

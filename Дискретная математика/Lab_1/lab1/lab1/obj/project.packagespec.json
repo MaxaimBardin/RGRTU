@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\Maxim\\Documents\\RGRTU\\Дискретная математика\\Lab_1\\lab1\\lab1\\lab1.csproj",
+    "projectUniqueName": "F:\\RGRTU\\Дискретная математика\\Lab_1\\lab1\\lab1\\lab1.csproj",
     "projectName": "lab1",
-    "projectPath": "C:\\Users\\Maxim\\Documents\\RGRTU\\Дискретная математика\\Lab_1\\lab1\\lab1\\lab1.csproj",
-    "outputPath": "C:\\Users\\Maxim\\Documents\\RGRTU\\Дискретная математика\\Lab_1\\lab1\\lab1\\obj\\",
+    "projectPath": "F:\\RGRTU\\Дискретная математика\\Lab_1\\lab1\\lab1\\lab1.csproj",
+    "outputPath": "F:\\RGRTU\\Дискретная математика\\Lab_1\\lab1\\lab1\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
     }
   }
 }

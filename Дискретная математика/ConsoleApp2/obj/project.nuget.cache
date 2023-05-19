@@ -1,18 +1,15 @@
-<<<<<<< HEAD
 {
   "version": 2,
-  "dgSpecHash": "SneO/fS2D8aUmlzAoNO2/oeGlDQ6jOi/pcRyso+EDyr4pEY8XgXRAS5LzqzmNUDIL6LtqC0kdMWhLXUQLCTufA==",
+  "dgSpecHash": "mWHq3Vt4a6y2kJnPHICoEkUxYnAXxRUut7aaP5h6OLQ9Ra9uCH/OZOnxw64V5Z9oAUOLGx37guq/BclGt4GlJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxim\\Documents\\RGRTU\\Дискретная математика\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "F:\\RGRTU\\Дискретная математика\\ConsoleApp2\\ConsoleApp1.csproj",
   "expectedPackageFiles": [],
-  "logs": []
-=======
-{
-  "version": 2,
-  "dgSpecHash": "v28n4V4IU6wjl/5H40bLwW37jcY4an7n7Lhrln0KVdsOHRXX7f5oiO0w1Ctb7Z7sSLtWMzmQURFvDhAGCOOuwg==",
-  "success": true,
-  "projectFilePath": "F:\\RGRTU\\Дискретная математика\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
->>>>>>> 68f8d66f5225ba6f33da83ce310e305608dc1d94
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша F:\\RGRTU\\Дискретная математика\\ConsoleApp2\\obj\\project.nuget.cache: Unexpected character encountered while parsing value: <. Path '', line 0, position 0."
+    }
+  ]
 }
