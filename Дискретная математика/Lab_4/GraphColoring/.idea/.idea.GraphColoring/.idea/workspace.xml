@@ -23,17 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9b9c4f5-0043-47aa-ab55-5b5a1a2e384d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Debug/net7.0/Lab3.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Debug/net7.0/Lab3.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Debug/net7.0/Lab3.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Debug/net7.0/Lab3.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Debug/net7.0/Lab3.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Debug/net7.0/Lab3.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Lab3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Lab3.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Lab3.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/Lab3.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/Lab3/Lab3/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ОЭТ/~$Lab2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GraphColoring/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GraphColoring/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GraphColoring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GraphColoring/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.exe" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/bin/Debug/net7.0/GraphColoring.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/GraphColoring.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/GraphColoring.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/GraphColoring.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/GraphColoring.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/GraphColoring.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphColoring/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GraphColoring/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +72,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -81,6 +96,17 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9b9c4f5-0043-47aa-ab55-5b5a1a2e384d" name="Default Changelist" comment="" />
+      <created>1684562802825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684562802825</updated>
+      <workItem from="1684562827993" duration="1749000" />
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -94,26 +120,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="3397" height="398" key="GridCell.Tab.0.bottom" timestamp="1684530172585">
-      <screen x="0" y="0" width="3440" height="1392" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1684568671394">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1684568671394" />
     <state width="3397" height="398" key="GridCell.Tab.0.bottom/0.0.3440.1392@0.0.3440.1392" timestamp="1684530172585" />
-    <state width="3397" height="398" key="GridCell.Tab.0.center" timestamp="1684530172585">
-      <screen x="0" y="0" width="3440" height="1392" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1684568671394">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1684568671394" />
     <state width="3397" height="398" key="GridCell.Tab.0.center/0.0.3440.1392@0.0.3440.1392" timestamp="1684530172585" />
-    <state width="3397" height="398" key="GridCell.Tab.0.left" timestamp="1684530172585">
-      <screen x="0" y="0" width="3440" height="1392" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1684568671394">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1684568671394" />
     <state width="3397" height="398" key="GridCell.Tab.0.left/0.0.3440.1392@0.0.3440.1392" timestamp="1684530172585" />
-    <state width="3397" height="398" key="GridCell.Tab.0.right" timestamp="1684530172585">
-      <screen x="0" y="0" width="3440" height="1392" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1684568671394">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1684568671394" />
     <state width="3397" height="398" key="GridCell.Tab.0.right/0.0.3440.1392@0.0.3440.1392" timestamp="1684530172585" />
   </component>
 </project>
