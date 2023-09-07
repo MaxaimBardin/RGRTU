@@ -1,0 +1,15 @@
+F:\RGRTU\ТобИ\ex_1\ex_1\bin\Debug\net7.0\ex_1.exe
+F:\RGRTU\ТобИ\ex_1\ex_1\bin\Debug\net7.0\ex_1.deps.json
+F:\RGRTU\ТобИ\ex_1\ex_1\bin\Debug\net7.0\ex_1.runtimeconfig.json
+F:\RGRTU\ТобИ\ex_1\ex_1\bin\Debug\net7.0\ex_1.dll
+F:\RGRTU\ТобИ\ex_1\ex_1\bin\Debug\net7.0\ex_1.pdb
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.csproj.AssemblyReference.cache
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.AssemblyInfoInputs.cache
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.AssemblyInfo.cs
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.csproj.CoreCompileInputs.cache
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.dll
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\refint\ex_1.dll
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.pdb
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ex_1.genruntimeconfig.cache
+F:\RGRTU\ТобИ\ex_1\ex_1\obj\Debug\net7.0\ref\ex_1.dll
