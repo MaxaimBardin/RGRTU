@@ -1,0 +1,90 @@
+//8
+	//for
+	setlocale(LC_ALL, "Russian");
+	double x;
+	int k, b;
+	double sum1 = 0.0;
+	double sum2 = 0.0;
+	std::cout << "Введите значение x: ";
+	std::cin >> x;
+	std::cout << "Введите значение k: ";
+	std::cin >> k;
+	std::cout << "Введите значение b: ";
+	std::cin >> b;
+
+	for (int p = 1; p <= k; p++) {
+		for(int w=1 ; w <= b; w++){
+			sum2 = (3 * w + p) / (pow(2, w) + sin(2 * x));
+			sum2 += sum2;
+		}
+		sum1 += sum2;
+	}
+
+	std::cout << "Сумма конечная членов ряда: " << sum1 << std::endl;
+
+	system("PAUSE");
+	return 0;
+	//while
+	setlocale(LC_ALL, "Russian");
+	double x;
+	int k,b;
+	double sum1 = 0.0;
+	double sum2 = 0.0;
+	int w = 1;
+	int p = 1;
+
+	std::cout << "Введите значение x: ";
+	std::cin >> x;
+	std::cout << "Введите значение k: ";
+	std::cin >> k;
+	std::cout << "Введите значение b: ";
+	std::cin >> b;
+
+	while (p <= k) {
+		while (w <= b) {
+			sum2 = (3*w + p) / (pow(2, w) + sin(2 * x));
+			sum2 += sum2;
+			w += 1;
+		}
+		sum1 += sum2;
+		p += 1;
+		w = 1;
+	}
+
+	std::cout << "Сумма от произведения членов ряда: " << sum1 << std::endl;
+
+	system("PAUSE");
+	return 0;
+	//do-while
+	setlocale(LC_ALL, "Russian");
+	double x;
+	int k, b;
+	double sum1 = 0.0;
+	double sum2 = 0.0;
+	int w = 1;
+	int p = 1;
+
+	std::cout << "Введите значение x: ";
+	std::cin >> x;
+	std::cout << "Введите значение k: ";
+	std::cin >> k;
+	std::cout << "Введите значение b: ";
+	std::cin >> b;
+
+	do {
+		do {
+			sum2 = (3 * w + p) / (pow(2, w) + sin(2 * x));
+			sum2 += sum2;
+			w += 1;
+		} while (w <= b);
+		sum1 += sum2;
+		p += 1;
+		w = 1;
+	} while (p <= k);
+
+	std::cout << "Сумма от произведения членов ряда: " << sum << std::endl;
+
+	return 0;
+
+	system("PAUSE");
+	return 0;
