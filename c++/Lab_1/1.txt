@@ -1,0 +1,130 @@
+//Задача 5
+int main() {
+    int k;
+    std::cout << "k: ";
+    std::cin >> k;
+    
+    int result = 1 << k;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
+//Задача 6
+int main() {
+    int k, n;
+    std::cout << "k: ";
+    std::cin >> k;
+    std::cout << "n: ";
+    std::cin >> n;
+
+    int result = (1 << k) + (1 << n);
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
+//Задача 7
+int main() {
+    int A, k;
+    std::cout << "A: ";
+    std::cin >> A;
+    std::cout << "k: ";
+    std::cin >> k;
+
+    int mask = (1 << k) - 1;
+
+    int result = A & ~mask;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
+//Задача 8
+#include <iostream>
+
+int main() {
+    int A, k;
+    std::cout << "A: ";
+    std::cin >> A;
+    std::cout << "k: ";
+    std::cin >> k;
+
+    int mask = 1 << k;
+
+    int result = A|mask;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
+//Задача 9
+#include <iostream>
+
+int main() {
+    int A, k;
+    std::cout << "A: ";
+    std::cin >> A;
+    std::cout << "k: ";
+    std::cin >> k;
+
+    int mask = 1 << k;
+
+    int result = A^mask;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
+//Задача 10
+#include <iostream>
+
+int main() {
+    int A, k;
+    std::cout << "A: ";
+    std::cin >> A;
+    std::cout << "k: ";
+    std::cin >> k;
+
+    int mask = 1 << k;
+
+    int result = (A & mask) >> k;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
+//Задача 11
+#include <iostream>
+
+int main() {
+    int A, k;
+    std::cout << "A: ";
+    std::cin >> A;
+    std::cout << "k: ";
+    std::cin >> k;
+
+    int mask = ~(1 << k);
+
+    int result = A & mask;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
+//Задача 12
+int main() {
+    int A, k;
+    std::cout << "A: ";
+    std::cin >> A;
+    std::cout << "k: ";
+    std::cin >> k;
+
+    int mask = (1 << k) - 1;
+
+    int result = A & mask;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
