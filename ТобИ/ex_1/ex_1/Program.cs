@@ -88,9 +88,10 @@ for (int i = 0; i < lenght - 1; i++)
             if (j != k)
             {
                 Lag *= (xn[i] - x[k]) / (x[j] - x[k]);
-                Po1 += y[j] * Lag;
             }
+            
         }
+        Po1 += y[j] * Lag;
     }
     Console.WriteLine($"x = {xn[i],-6:0.0} y = {Po1,-6:0.00}");
 }

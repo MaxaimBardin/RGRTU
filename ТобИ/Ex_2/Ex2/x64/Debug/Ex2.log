@@ -1,10 +1,2 @@
 ﻿  Ex2.cpp
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(8,21): warning C4101: s2: неиспользованная локальная переменная
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(8,17): warning C4101: s1: неиспользованная локальная переменная
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(8,25): warning C4101: s3: неиспользованная локальная переменная
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(8,29): warning C4101: s4: неиспользованная локальная переменная
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(42,17): warning C4101: eps: неиспользованная локальная переменная
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(44,20): warning C4101: emax: неиспользованная локальная переменная
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(44,17): warning C4101: E: неиспользованная локальная переменная
-C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\Ex2.cpp(41,17): warning C4101: f: неиспользованная локальная переменная
-  Ex2.vcxproj -> C:\Users\Maxim\Documents\RGRTU\ТобИ\Ex_2\Ex2\x64\Debug\Ex2.exe
+  Ex2.vcxproj -> F:\RGRTU\ТобИ\Ex_2\Ex2\x64\Debug\Ex2.exe
