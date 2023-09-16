@@ -20,7 +20,8 @@ long double Opred(long double a11, long double a12, long double a21, long double
 //Функция для определителя 3*3
 long double Opred2(long double a11, long double a12, long double a13, long double a21,
     long double a22,long double a23, long double a31, long double a32, long double a33 ) {
-    return a11 * Opred(a22, a23, a32, a33) - a21 * Opred(a12, a13, a32, a33) + a31 * Opred(a12, a13, a22, a23);
+    return a11 * Opred(a22, a23, a32, a33) - a21 * Opred(a12, a13, a32, a33) +
+        a31 * Opred(a12, a13, a22, a23);
 }
 
 int main()
@@ -74,6 +75,7 @@ int main()
         f[i] = a1 * x[i] + a0;
         cout << "f" << i + 1 << " = " << f[i] << endl;
         eps[i] = f[i] - y[i];
+        cout << "eps" << i + 1 << " = " << eps[i] << endl;
         E += eps[i] * eps[i];
         if (abs(eps[i]) > emax) {
             emax = abs(eps[i]);
