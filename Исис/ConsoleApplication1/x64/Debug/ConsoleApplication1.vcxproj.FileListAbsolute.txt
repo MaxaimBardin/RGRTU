@@ -1,1 +1,2 @@
 C:\Users\Maxim\Documents\RGRTU\Исис\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+F:\RGRTU\Исис\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
