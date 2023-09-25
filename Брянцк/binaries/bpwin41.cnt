@@ -1,0 +1,680 @@
+:Base BPWIN41.hlp>main
+:Title AllFusion Process Modeler Online Help
+1 What's New in AllFusion Process Modeler
+2 What's New in AllFusion Process Modeler=Whats_New_in_BPwin_4.0@BPWIN41.hlp>CA Main
+1 The Workplace
+2 Workplace Overview=AllFusionPM_Workplace@BPWIN41.hlp>CA Main
+2 AllFusion Process Modeler Dialog=BPwin_Dialog_Options@BPWIN41.hlp>CA Main
+2 Model Explorer
+3 Model Explorer=Overview_of_the_AllFusionPM_Model_Explorer@BPWIN41.hlp>CA Main
+3 Display or Hide the Model Explorer=Display_or_hide_the_AllFusionPM_Model_Explorer@BPWIN41.hlp>CA Main
+3 Cutting and Pasting Activities in the Model Explorer=Overview_of_Cutting_and_Pasting_Activities_in_the_Model_Explorer@BPWIN41.hlp>CA Main
+3 Model Explorer Activity Tree
+4 Model Explorer Activity Tree=O222297@BPWIN41.hlp>CA Main
+4 Add a New Activity Using the Model Explorer=Add_a_new_activity_using_the_Model_Explorer@BPWIN41.hlp>CA Main
+4 Decompose an Activity from the Model Explorer=Decompose_an_activity_from_the_Model_Explorer@BPWIN41.hlp>CA Main
+4 How You Copy an Activity Within the Same Model=Copy_an_activity_within_the_same_model@BPWIN41.hlp>CA Main
+4 How You Cut and Paste an Activity Within the Same Model=Cut_and_paste_an_activity_with_in_the_same_model@BPWIN41.hlp>CA Main
+4 How You Copy an Activity to Another Model=Copy_an_activity_to_another_model@BPWIN41.hlp>CA Main
+3 Model Explorer Diagram Tree
+4 Model Explorer Diagram Tree=O222299@BPWIN41.hlp>CA Main
+4 Open a Model Diagram Using the Model Explorer=Open_a_model_diagram_using_the_Model_Explorer@BPWIN41.hlp>CA Main
+2 Model Explorer Object Tree=O222300@BPWIN41.hlp>CA Main
+1 Move a Toolbar=Move_or_resize_a_toolbar_or_toolbox@BPWIN41.hlp>CA Main
+2 Resize a Toolbar=Resize_a_toolbar_or_toolbox@BPWIN41.hlp>CA Main
+1 Basic Features
+2 File Types Supported=File_types_supported_by_AllFusion_PM@BPWIN41.hlp>CA Main
+2 Preferences
+3 Preferences Dialog Options=Preferences_Dialog_Options@BPWIN41.hlp>CA Main
+3 Set General Preferences=Set_general_AllFusionPM_preferences@BPWIN41.hlp>CA Main
+3 Set IDL Import and Export Preferences=Set_preferences_for_IDL_import_and_export@BPWIN41.hlp>CA Main
+1 Create a Model=Create_an_AllFusionPM_model@BPWIN41.hlp>CA Main
+2 Open a Model=Open_an_AllFusionPM_model@BPWIN41.hlp>CA Main
+2 Close a Model=Close_an_AllFusionPM_model@BPWIN41.hlp>CA Main
+2 Create a Model Template=How_You_Create_a_Model_Template@BPWIN41.hlp>CA Main
+2 Create a New Model Using an Existing Template=How_You_Create_a_New_Model_Using_an_Existing_Template@BPWIN41.hlp>CA Main
+2 Set the Diagram View=Set_the_diagram_view@BPWIN41.hlp>CA Main
+2 Copy a Diagram to the Windows Clipboard=Copy_a_diagram_to_the_Windows_Clipboard@BPWIN41.hlp>CA Main
+2 Save a Model Using Another Name=How_You_Save_a_Model_Using_Another_Name@BPWIN41.hlp>CA Main
+2 Save a Model as a Template=How_You_Save_a_Model_as_a_Template@BPWIN41.hlp>CA Main
+2 Save All Open Models=Save_all_open_AllFusionPM_models@BPWIN41.hlp>CA Main
+2 Save a Model as an IDL File=Save_an_AllFusionPM_model_as_an_IDL_file@BPWIN41.hlp>CA Main
+2 Save a Model Automatically=Automatically_save_files@BPWIN41.hlp>CA Main
+2 Set Printer Options=Set_printer_options@BPWIN41.hlp>CA Main
+2 Print a Diagram=Print_an_AllFusionPM_diagram@BPWIN41.hlp>CA Main
+2 Setting Default Fonts
+3 Set Default Font Properties for a Context Activity=O220689@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for a Context Arrow=O220690@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for a Decomposition Activity=O220691@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for a Decomposition Arrow=O220692@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for Node Tree Text=O220695@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for Frame User Text=O220694@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for Frame System Text=O220693@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for Text Blocks=O220699@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for Parent Diagram Text=O220696@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for Parent Diagram Title Text=O220697@BPWIN41.hlp>CA Main
+3 Set Default Font Properties for Report Text=O220698@BPWIN41.hlp>CA Main
+2 Spelling Checker
+3 Spelling Checker=O222301@BPWIN41.hlp>CA Main
+3 How You Check the Spelling in a Model
+4 How You Check the Spelling in a Model=Check_the_spelling_in_AllFusionPM@BPWIN41.hlp>CA Main
+4 Check Spelling Dialog=checkSpellingDlg@BPWIN41.hlp>CA Main
+4 Spelling Checker Dictionaries Dialog=dictionariesDlg@BPWIN41.hlp>CA Main
+4 Set Model Spelling Checker Options=Set_AllFusionPM_spelling_checker_options@BPWIN41.hlp>CA Main
+4 Set Global Spelling Options=optionsDlg@BPWIN41.hlp>CA Main
+4 Check Spelling in Your Model=O349592@BPWIN41.hlp>CA Main
+4 Create a Spelling Dictionary=Create_a_spelling_dictionary@BPWIN41.hlp>CA Main
+4 Import a Spelling Dictionary=Import_a_spelling_dictionary@BPWIN41.hlp>CA Main
+4 Export a Spelling Dictionary=Export_a_spelling_dictionary@BPWIN41.hlp>CA Main
+4 Remove a Spelling Dictionary=Remove_a_spelling_dictionary@BPWIN41.hlp>CA Main
+1 Model, Diagram, and Diagram Object Properties
+2 Model Properties
+3 Model Properties=O222181@BPWIN41.hlp>CA Main
+3 Define General Model Properties=Define_general_model_properties@BPWIN41.hlp>CA Main
+3 Define the Purpose and Viewpoint of a Model=Define_the_purpose_and_viewpoint_of_a_model@BPWIN41.hlp>CA Main
+3 Define the Definition and Scope of a Model=Define_the_scope_and_definition_of_a_model@BPWIN41.hlp>CA Main
+3 Define Model Source Information=Define_model_source_information@BPWIN41.hlp>CA Main
+3 Define the Model Status=Define_the_model_status@BPWIN41.hlp>CA Main
+3 Define Diagram Object Numbering Options=Set_diagram_object_numbering_options@BPWIN41.hlp>CA Main
+3 Define Model Display Options=Set_model_display_options@BPWIN41.hlp>CA Main
+3 Define Model Layout Options=Set_model_layout_options@BPWIN41.hlp>CA Main
+3 Define ABC Units of Measure Options=Set_ABC_units_of_measure_options@BPWIN41.hlp>CA Main
+3 Define Model Page Setup Options=Define_model_page_setup_options@BPWIN41.hlp>CA Main
+3 Define Model Header and Footer Fields=Set_model_header_and_footer_fields@BPWIN41.hlp>CA Main
+3 Assign Default Shapes for Diagram Objects=Assign_default_shapes_for_diagram_objects@BPWIN41.hlp>CA Main
+3 Define Model Default Draw Style=Set_model_default_draw_style@BPWIN41.hlp>CA Main
+3 New Model Properties
+4 New Model Properties=O351168@BPWIN41.hlp>CA Main
+4 Define General Properties for New Models=Define_general_properties_for_new_models@BPWIN41.hlp>CA Main
+4 Define Numbering Options for New Models=Set_numbering_options_for_new_models@BPWIN41.hlp>CA Main
+4 Define Display Options for New Models=Set_display_options_for_new_models@BPWIN41.hlp>CA Main
+4 Define Layout Options for New Models=Set_layout_options_for_new_models@BPWIN41.hlp>CA Main
+4 Define ABC Units of Measure Options for New Models=Set_ABC_units-of-measure_options_for_new_models@BPWIN41.hlp>CA Main
+4 Define Page Setup Options for New Models=Set_page_setup_options_for_new_models@BPWIN41.hlp>CA Main
+4 Define Header and Footer Fields for New Models=Set_header_and_footer_fields_for_new_models@BPWIN41.hlp>CA Main
+2 Diagram Properties
+3 Diagram Properties=O222178@BPWIN41.hlp>CA Main
+3 Open the Diagram Properties Dialog=Open_the_Diagram_Properties_Dialog@BPWIN41.hlp>CA Main
+3 Define the Diagram Author Name=Define_the_diagram_author_name@BPWIN41.hlp>CA Main
+3 Define the Diagram Kit=Define_the_diagram_kit@BPWIN41.hlp>CA Main
+3 Define the Diagram Status=Define_the_diagram_status@BPWIN41.hlp>CA Main
+3 Define Diagram Text=Define_diagram_text@BPWIN41.hlp>CA Main
+3 Change the Parent Diagram Text=O357699@BPWIN41.hlp>CA Main
+3 Change the Parent Diagram Title Font=O357700@BPWIN41.hlp>CA Main
+3 Define the Diagram Page Setup=Define_the_diagram_page_setup@BPWIN41.hlp>CA Main
+3 Define Diagram Header and Footer Fields=Set_diagram_header_and_footer_fields@BPWIN41.hlp>CA Main
+3 Define the Diagram Draw Style=Define_the_diagram_draw_style@BPWIN41.hlp>CA Main
+3 Customize the Diagram Kit and Title Areas=Customize_the_diagram_Kit_and_Title_areas@BPWIN41.hlp>CA Main
+3 Display a Sibling Diagram=Display_a_sibling_Diagram@BPWIN41.hlp>CA Main
+3 Display a Parent Diagram=Display_the_parent_diagram@BPWIN41.hlp>CA Main
+3 Display a Child Diagram=Display_a_child_diagram@BPWIN41.hlp>CA Main
+3 Diagram Manager=Diagram_Manager@BPWIN41.hlp>CA Main
+3 Go to a Diagram Using the Diagram Manager=Go_to_a_diagram_using_the_Diagram_Manager@BPWIN41.hlp>CA Main
+3 Delete a Diagram Using Diagram Manager=Delete_a_diagram@BPWIN41.hlp>CA Main
+2 Diagram Object Properties
+3 Diagram Object Properties=O350002@BPWIN41.hlp>CA Main
+3 Reposition a Diagram Object=Reposition_a_diagram_object@BPWIN41.hlp>CA Main
+3 Reposition Multiple Diagram Objects=Reposition_multiple_diagram_objects@BPWIN41.hlp>CA Main
+3 Resize a Diagram Object=Resize_a_diagram_object@BPWIN41.hlp>CA Main
+3 Delete a Diagram Object=Delete_a_diagram_object@BPWIN41.hlp>CA Main
+3 Define Diagram Object UOW Properties=Define_diagram_object_UOW_properties@BPWIN41.hlp>CA Main
+3 Use the Text Editor=Use_the_text_editor@BPWIN41.hlp>CA Main
+1 Model Types
+2 Business Process (IDEF0) Models=O221421@BPWIN41.hlp>CA Main
+2 Data Flow (DFD) Models=O222217@BPWIN41.hlp>CA Main
+2 Process Flow (IDEF3) Models=O221420@BPWIN41.hlp>CA Main
+1 Diagram Types
+2 For Exposition Only (FEO) Diagrams
+3 For Exposition Only (FEO) Diagrams=O222232@BPWIN41.hlp>CA Main
+3 Add an FEO Diagram=Add_an_FEO_diagram@BPWIN41.hlp>CA Main
+2 Swim Lane Diagrams
+3 Swim Lane Diagrams=O222276@BPWIN41.hlp>CA Main
+3 Add a Swim Lane Diagram=Add_a_Swim_Lane_diagram_step_1_of_2@BPWIN41.hlp>CA Main
+3 Create a Process Role in the UDP Dictionary=O277482@BPWIN41.hlp>CA Main
+3 Assigning Swim Lane Roles to a Diagram Object=Assign_swim_lane_roles_to_a_diagram_object@BPWIN41.hlp>CA Main
+3 Movement of Objects in a Swim Lane Diagram=O277487@BPWIN41.hlp>CA Main
+3 Swim Lane Diagram Wizard Step 1=O220888@BPWIN41.hlp>CA Main
+3 Swim Lane Diagram Wizard Step 2=O220889@BPWIN41.hlp>CA Main
+3 Swim Lane Diagram Properties
+4 Swim Lane Diagram Properties=Swim_Lane_Diagram_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+4 Change the Swim Lane Diagram Name=Change_the_Swim_Lane_diagram_name@BPWIN41.hlp>CA Main
+4 Change Swim Lane Diagram Display Options=Change_Swim_Lane_diagram_display_options@BPWIN41.hlp>CA Main
+4 Swim Lane Diagram Scale=Swim_Lane_Diagram_Scale@BPWIN41.hlp>CA Main
+4 Define the Swim Lane Diagram Scale=Define_the_Swim_Lane_diagram_scale@BPWIN41.hlp>CA Main
+4 Change the Swim Lane Diagram Scale Font=Change_the_Swim_Lane_diagram_scale_font@BPWIN41.hlp>CA Main
+4 Change the Swim Lane Diagram Scale Color=Change_the_Swim_Lane_diagram_scale_color@BPWIN41.hlp>CA Main
+4 Define the Swim Lane Diagram Kit=Define_the_Swim_Lane_diagram_kit@BPWIN41.hlp>CA Main
+4 Define the Swim Lane Diagram Status=Define_the_Swim_Lane_diagram_status@BPWIN41.hlp>CA Main
+4 Define the Swim Lane Diagram Page Setup=Define_the_Swim_Lane_diagram_page_setup@BPWIN41.hlp>CA Main
+4 Set Swim Lane Diagram Header and Footer Fields=Set_Swim_Lane_diagram_header_and_footer_fields@BPWIN41.hlp>CA Main
+4 Swim Lane Properties
+5 Swim Lane Properties=O355408@BPWIN41.hlp>CA Main
+5 Change Swim Lane Line Thickness=Change_swim_lane_line_thickness@BPWIN41.hlp>CA Main
+5 Change a Swim Lane Label Font=Change_swim_lane_label_font@BPWIN41.hlp>CA Main
+5 Change Swim Lane Color=Change_swim_lane_color@BPWIN41.hlp>CA Main
+2 Organization Charts
+3 Organization Charts=O222254@BPWIN41.hlp>CA Main
+3 Add an Organization Chart=Add_an_organization_chart@BPWIN41.hlp>CA Main
+3 Move Organization Chart Objects=O351560@BPWIN41.hlp>CA Main
+3 Organization Chart Wizard Step 1=O220882@BPWIN41.hlp>CA Main
+3 Organization Chart Wizard Step 2=O220883@BPWIN41.hlp>CA Main
+3 Organization Chart Wizard Step 3=O220884@BPWIN41.hlp>CA Main
+3 Resources in Organization Charts=Overview_of_Resources_in_Organization_Charts@BPWIN41.hlp>CA Main
+3 Organization Chart Properties
+4 Organization Chart Properties=Organization_Chart_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+4 Change the Organization Chart Name=Change_the_organization_chart_name@BPWIN41.hlp>CA Main
+4 Define Organization Chart Style Properties=Set_organization_chart_style_options@BPWIN41.hlp>CA Main
+4 Define the Organization Chart Kit=Define_the_organization_chart_kit@BPWIN41.hlp>CA Main
+4 Define the Organization Chart Status=Define_the_organization_chart_status@BPWIN41.hlp>CA Main
+4 Change Organization Chart Font Properties=Change_organization_chart_font_properties@BPWIN41.hlp>CA Main
+4 Define the Organization Chart Page Setup=Define_the_organization_chart_page_setup@BPWIN41.hlp>CA Main
+4 Set Organization Chart Header and Footer Fields=Set_organization_chart_header_and_footer_fields@BPWIN41.hlp>CA Main
+3 Organization Chart Box Properties
+4 Organization Chart Box Properties=O355357@BPWIN41.hlp>CA Main
+4 Change the Name of a Box in an Organization Chart=Change_the_name_of_a_box_in_an_organization_chart@BPWIN41.hlp>CA Main
+4 Change the Box Color in an Organization Chart=Change_the_box_color_in_an_organization_chart@BPWIN41.hlp>CA Main
+4 Change the Subordinate Boxes in an Organization Chart=Change_the_subordinate_boxes_in_an_organization_chart@BPWIN41.hlp>CA Main
+2 Roles and Role Groups for Swim Lane Diagrams and Organization Charts
+3 Roles and Role Groups for Swim Lane Diagrams and Organization Charts=Roles_and_Role_Groups@BPWIN41.hlp>CA Main
+3 Create and Manage Resources=O284617@BPWIN41.hlp>CA Main
+3 Create and Manage Roles=O284616@BPWIN41.hlp>CA Main
+3 Create and Manage Role Groups=O284615@BPWIN41.hlp>CA Main
+2 Node Tree Diagrams
+3 Node Tree Diagrams=O222250@BPWIN41.hlp>CA Main
+3 Add a Node Tree Diagram=Add_a_Node_Tree_diagram_step_1_of_2@BPWIN41.hlp>CA Main
+3 Node Tree Wizard Step 1=O221354@BPWIN41.hlp>CA Main
+3 Node Tree Wizard Step 2=O221355@BPWIN41.hlp>CA Main
+3 Node Tree Diagram Properties
+4 Node Tree Diagram Properties=Node_Tree_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+4 Define General Node Tree Diagram Properties=Define_general_Node_Tree_diagram_properties@BPWIN41.hlp>CA Main
+4 Define the Node Tree Diagram Kit=Define_the_Node_Tree_diagram_kit@BPWIN41.hlp>CA Main
+4 Define the Node Tree Diagram Status=Define_the_Node_Tree_diagram_status@BPWIN41.hlp>CA Main
+4 Define Node Tree Diagram Style Properties=Define_Node_Tree_diagram_style_options@BPWIN41.hlp>CA Main
+4 Change Node Tree Diagram Font Properties=Change_Node_Tree_diagram_fonts@BPWIN41.hlp>CA Main
+4 Define the Node Tree Diagram Page Setup=Define_the_Node_Tree_diagram_page_setup@BPWIN41.hlp>CA Main
+4 Set Node Tree Diagram Header and Footer Fields=Set_Node_Tree_diagram_header_and_footer_fields@BPWIN41.hlp>CA Main
+2 IDEF3 Scenario Diagrams
+3 IDEF3 Scenario Diagrams=O221368@BPWIN41.hlp>CA Main
+3 Add an IDEF3 Scenario Diagram to a Model=Add_an_IDEF3_Scenario_diagram_to_a_model@BPWIN41.hlp>CA Main
+3 Reorder the View Sequence of IDEF3 Scenario Diagrams=Reorder_the_view_sequence_of_IDEF3_Scenario_diagrams@BPWIN41.hlp>CA Main
+3 Substitute an IDEF3 Decomposition Diagram with an IDEF3 Scenario Diagram=Substitute_an_IDEF3_decomposition_diagram_with_an_IDEF3_Scenario_diagram@BPWIN41.hlp>CA Main
+1 Activity Based Costing (ABC)=Overview_of_Activity_Based_Costing_(ABC)@BPWIN41.hlp>CA Main
+1 Entities and Attributes=Overview_of_Entities_and_Attributes_in_AllFusionPM@BPWIN41.hlp>CA Main
+1 Dictionaries
+2 Dictionaries=O222180@BPWIN41.hlp>CA Main
+2 Customize the Dictionary=Customize_the_dictionary_window@BPWIN41.hlp>CA Main
+2 Print the Dictionary Contents=Print_the_dictionary_contents@BPWIN41.hlp>CA Main
+2 Purge Unused Names from the Dictionary=Purge_unused_names_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Activity Dictionary
+3 Create and Manage Activities in the Activity Dictionary=Add_an_activity_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete an Activity from the Activity Dictionary=Delete_an_activity_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Arrow Dictionary
+3 Create and Manage Arrows in the Arrow Dictionary=Add_an_arrow_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete an Arrow from the Arrow Dictionary=Delete_an_arrow_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Data Store Dictionary
+3 Create and Manage Data Stores in the Data Store Dictionary=Add_a_data_store_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Assign the Data Store Type=Assign_the_data_store_type@BPWIN41.hlp>CA Main
+3 Delete a Data Store from the Data Store Dictionary=Delete_a_data_store_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 External Reference Dictionary
+3 Create and Manage External References in the External Reference Dictionary=Add_an_external_reference_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Assign the External Reference Type=Assign_the_external_reference_type@BPWIN41.hlp>CA Main
+3 Delete an External Reference from the External Reference Dictionary=Delete_an_external_reference_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Junction Dictionary
+3 Create and Manage Junctions in the Junction Dictionary=Add_a_junction_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete a Junction from the Junction Dictionary=Delete_a_junction_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Referent Dictionary
+3 Create and Manage Referents in the Referent Dictionary=Add_a_referent_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Assign the Referent Type=Assign_the_referent_type@BPWIN41.hlp>CA Main
+3 Delete a Referent from the Referent Dictionary=Delete_a_referent_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Attribute Dictionary
+3 Create and Manage Attributes in the Attribute Dictionary=Add_an_attribute_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete an Attribute from the Attribute Dictionary=Delete_an_attribute_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Cost Center Dictionary
+3 Create and Manage ABC Cost Centers in the Cost Center Dictionary=Add_an_ABC_cost_center_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete an ABC Cost Center from the Cost Center Dictionary=Delete_an_ABC_cost_center_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Entity Dictionary
+3 Create and Manage Entities in the Entity Dictionary=Add_an_entity_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete an Entity from the Entity Dictionary=Delete_an_entity_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Resource Dictionary
+3 Create and Manage Resources in the Resource Dictionary=Add_a_resource_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete a Resource from the Resource Dictionary=Delete_a_resource_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Role Dictionary
+3 Create and Manage Roles in the Role Dictionary=Add_a_role_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete a Role from the Role Dictionary=Delete_a_role_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Role Group Dictionary
+3 Create and Manage Role Groups in the Role Group Dictionary=Add_a_role_group_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete a Role Group from the Role Group Dictionary=Delete_a_role_group_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 UDP Dictionary
+3 Create and Manage UDPs in the UDP Dictionary=Add_a_UDP_name_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete a UDP from the UDP Dictionary=Delete_a_UDP_name_from_the_dictionary@BPWIN41.hlp>CA Main
+2 UDP Keywords Dictionary
+3 Create and Manage UDP Keyword in the UDP Keywords Dictionary=Add_a_UDP_keyword_to_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete a UDP Keyword from the UDP Keyword Dictionary=Delete_a_UDP_keyword_from_the_dictionary@BPWIN41.hlp>CA Main
+2 Bitmap Dictionary
+3 Create and Manage Bitmaps in the Bitmap Dictionary=Add_a_bitmap_into_the_dictionary@BPWIN41.hlp>CA Main
+3 Delete a Bitmap from the Bitmap Dictionary=Delete_a_bitmap_from_the_dictionary@BPWIN41.hlp>CA Main
+1 Dictionary Editors
+2 Dictionary Editors=O354606@BPWIN41.hlp>CA Main
+2 Diagram Object Dictionary Editor
+3 Diagram Object Dictionary Editor=Overview_of_the_Diagram_Object_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Create and Manage Diagram Objects in the Diagram Object Dictionary Editor=Add_a_diagram_object_name_in_the_Diagram_Object_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Delete a Diagram Object from the Diagram Object Dictionary Editor=Delete_a_diagram_object_name_in_the_Diagram_Object_Dictionary_Editor@BPWIN41.hlp>CA Main
+2 Arrow Dictionary Editor
+3 Arrow Dictionary Editor=Overview_of_the_Arrow_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Create and Manage Arrows in the Arrow Dictionary Editor=Add_an_arrow_name_using_the_Arrow_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Delete an Arrow from the Arrow Dictionary Editor=Delete_an_arrow_name_using_the_Arrow_Dictionary_Editor@BPWIN41.hlp>CA Main
+2 Entity and Attribute Dictionary Editor
+3 Entity and Attribute Dictionary Editor=O355600@BPWIN41.hlp>CA Main
+3 Create and Manage Entities and Attributes in the Entity and Attribute Dictionary Editor=Add_entities_and_attributes_using_the_Entity_and_Attribute_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Delete Entities and Attributes from the Entity and Attribute Dictionary Editor=Delete_entities_and_attributes_using_the_Entity_and_Attribute_Dictionary_Editor@BPWIN41.hlp>CA Main
+2 User Defined Property Dictionary Editor
+3 User Defined Property Dictionary Editor=O355639@BPWIN41.hlp>CA Main
+3 Create and Manage UDPs in the User Defined Property Dictionary Editor=Add_a_UDP_name_using_the_User_Defined_Property_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Delete a UDP from the User Defined Property Dictionary Editor=Delete_a_UDP_name_using_the_User_Defined_Property_Dictionary_Editor@BPWIN41.hlp>CA Main
+2 Cost Center Editor
+3 Cost Center Editor=O355792@BPWIN41.hlp>CA Main
+3 Create and Manage ABC Cost Centers in the Cost Center Editor=Add_an_ABC_cost_center_using_the_Cost_Center_Editor@BPWIN41.hlp>CA Main
+3 Delete an ABC Cost Center from the Cost Center Editor=Delete_an_ABC_cost_center_using_the_Cost_Center_Editor@BPWIN41.hlp>CA Main
+1 Activities
+2 Activity Decomposition Diagrams=Activity_Decomposition_Diagrams@BPWIN41.hlp>CA Main
+2 Create an Activity Decomposition Diagram
+3 Create an Activity Decomposition Diagram=Create_a_decomposition_diagram@BPWIN41.hlp>CA Main
+3 Add an Activity to a Decomposition Diagram=Add_an_activity_to_a_decomposition_diagram@BPWIN41.hlp>CA Main
+1 Add an Activity to a DFD Diagram=Add_an_activity_to_a_DFD_diagram@BPWIN41.hlp>CA Main
+2 View an Activity in the Model=Go_to_an_activity_in_the_model@BPWIN41.hlp>CA Main
+2 Move an Activity Using Move/Rename=Move_an_activity_using_Move/Rename@BPWIN41.hlp>CA Main
+2 Move or Copy an Activity to Another Diagram in the Same Model=Move_or_copy_an_activity_to_another_diagram_in_the_same_model@BPWIN41.hlp>CA Main
+2 Cut and Paste an Activity=Cut_and_paste_an_activity@BPWIN41.hlp>CA Main
+2 Activity Data Usage
+3 Activity Data Usage=Overview_of_Activity_Data_Usage@BPWIN41.hlp>CA Main
+3 Specify Activity Data Usage=Specify_activity_data_usage@BPWIN41.hlp>CA Main
+2 Activity Properties
+3 Activity Properties=Activity_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+3 Add a New Activity Name=Add_or_change_an_activity_name@BPWIN41.hlp>CA Main
+3 Change an Activity Name=O353799@BPWIN41.hlp>CA Main
+3 Create an Activity Definition=Create_an_activity_definition@BPWIN41.hlp>CA Main
+3 Define Activity Status=Define_activity_status@BPWIN41.hlp>CA Main
+3 Change Activity Font Properties=Change_activity_font_properties@BPWIN41.hlp>CA Main
+3 Change Activity Colors=Change_activity_colors@BPWIN41.hlp>CA Main
+3 Assign Activity Costs=Assign_activity_costs@BPWIN41.hlp>CA Main
+3 Assign Activity UDP Values=Assign_activity_UDP_values@BPWIN41.hlp>CA Main
+3 Define Activity UOW Properties=Activity_Properties_Dialog_Options_UOW_Tab@BPWIN41.hlp>CA Main
+3 Define Activity Source Information=Define_activity_source_information@BPWIN41.hlp>CA Main
+3 Assign Activity Role Values=Assign_activity_role_values@BPWIN41.hlp>CA Main
+3 Define Activity Box Style=Define_activity_box_style@BPWIN41.hlp>CA Main
+1 Arrows
+2 Arrow Types=Overview_of_Arrow_Types@BPWIN41.hlp>CA Main
+2 Arrow Types in IDEF3 Diagrams=Summary_of_Arrow_Types_in_Process_Flow_Diagrams@BPWIN41.hlp>CA Main
+2 Set the Default Arrow Type=Set_the_default_arrow_type@BPWIN41.hlp>CA Main
+2 Add an Arrow to an IDEF0 Diagram=Add_an_arrow_to_a_Business_Process_diagram@BPWIN41.hlp>CA Main
+2 Add an Arrow to an IDEF3 Diagram=Add_an_arrow_in_a_Process_Flow_diagram@BPWIN41.hlp>CA Main
+2 Add an Arrow to a DFD Diagram=Add_an_arrow_in_a_DFD_diagram@BPWIN41.hlp>CA Main
+2 Rules for Copying Arrows to a DFD Decomposition=Rules_for_Copying_Arrows_to_a_DFD_Decomposition@BPWIN41.hlp>CA Main
+2 Resolve Border Arrows in a DFD Decomposition=Resolving_Border_Arrows_in_a_DFD_Decomposition@BPWIN41.hlp>CA Main
+2 Arrow Tunnels
+3 Arrow Tunnels=O222188@BPWIN41.hlp>CA Main
+3 Resolve a Square Tunnel to a Round Tunnel=Resolve_a_square_tunnel_to_a_round_tunnel@BPWIN41.hlp>CA Main
+3 Resolve a Square Tunnel to a Border Arrow=Resolve_a_square_tunnel_to_a_border_arrow@BPWIN41.hlp>CA Main
+3 Create an External Reference to Resolve a Square Tunnel=O353538@BPWIN41.hlp>CA Main
+3 Off-Page References
+4 Off-Page References=Overview_of_Off-Page_References@BPWIN41.hlp>CA Main
+4 Create an Off-Page Reference to Resolve a Square Tunnel=O353539@BPWIN41.hlp>CA Main
+4 Go to a Diagram Using an Off-Page Reference=Go_to_a_diagram_using_an_off_page_reference@BPWIN41.hlp>CA Main
+2 Specifying Arrow Data
+3 Entities, Attributes, and Associated Arrows=Entities_Attributes_and_Arrows@BPWIN41.hlp>CA Main
+3 Arrow Hierarchy and Data Associations in Business Process Models=Overview_of_Arrow_Hierarchy_and_Data_Associations_in_Business_Process_Models@BPWIN41.hlp>CA Main
+3 Copy Arrow Data from Another Arrow=Copy_arrow_data_from_another_arrow@BPWIN41.hlp>CA Main
+3 Migrate Arrow Data Up the Arrow Hierarchy=Migrate_arrow_data_up_the_arrow_hierarchy@BPWIN41.hlp>CA Main
+3 Remove Arrow Data from an Arrow=Remove_arrow_data_from_an_arrow@BPWIN41.hlp>CA Main
+3 Confirm Changes to Arrow Data Associations=Confirm_changes_to_arrow_data_associations@BPWIN41.hlp>CA Main
+3 Create a Squiggle to Label an Arrow=Create_a_squiggle@BPWIN41.hlp>CA Main
+2 Arrow Properties
+3 Arrow Properties=Arrow_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+3 Add a New Arrow Name=Add_or_change_an_arrow_name@BPWIN41.hlp>CA Main
+3 Change an Arrow Name=O353928@BPWIN41.hlp>CA Main
+3 Change the Current Arrow Type or Thickness=Change_the_current_arrow_type_or_thickness@BPWIN41.hlp>CA Main
+3 Create an Arrow Definition=Create_an_arrow_definition@BPWIN41.hlp>CA Main
+3 Define Arrow Status=Define_arrow_status@BPWIN41.hlp>CA Main
+3 Change Arrow Font Properties=Change_arrow_font_properties@BPWIN41.hlp>CA Main
+3 Change Arrow Colors=Change_arrow_colors@BPWIN41.hlp>CA Main
+3 Assign Arrow UDP Values=Assign_arrow_UDP_values@BPWIN41.hlp>CA Main
+3 Associate Entities and Attributes with an Arrow=Associate_entities_and_attributes_with_an_arrow@BPWIN41.hlp>CA Main
+3 Define Arrow UOW Properties=Define_arrow_UOW_properties@BPWIN41.hlp>CA Main
+1 Data Stores
+2 Add a Data Store to a DFD Diagram=Add_a_data_store_to_a_DFD_diagram@BPWIN41.hlp>CA Main
+2 Data Store Properties
+3 Data Store Properties=Data_Store_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+3 Add a Data Store Name=Add_or_change_a_data_store_name@BPWIN41.hlp>CA Main
+3 Change a Data Store Name=O354097@BPWIN41.hlp>CA Main
+3 Define Data Store Box Style=Define_data_store_box_style@BPWIN41.hlp>CA Main
+3 Create a Data Store Definition=Create_a_data_store_definition@BPWIN41.hlp>CA Main
+3 Define Data Store Status=Define_data_store_status@BPWIN41.hlp>CA Main
+3 Assign Data Store UDP Values=Assign_data_store_UDP_values@BPWIN41.hlp>CA Main
+3 Change Data Store Font Properties=Change_data_store_font_properties@BPWIN41.hlp>CA Main
+3 Change Data Store Colors=Change_data_store_colors@BPWIN41.hlp>CA Main
+3 Define Data Store Source Information=Define_data_store_source_information@BPWIN41.hlp>CA Main
+3 Assign Data Store Role Values=Assign_data_store_role_values@BPWIN41.hlp>CA Main
+1 External References
+2 External References in DFD and IDEF0 Diagrams=External_References_in_DFD_and_Business_Process_Diagrams@BPWIN41.hlp>CA Main
+2 External Reference Properties
+3 External Reference Properties=External_Reference_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+3 Add an External Reference Name=Add_or_change_an_external_reference_name@BPWIN41.hlp>CA Main
+3 Change an External Reference Name=O354152@BPWIN41.hlp>CA Main
+3 Define an External Reference Box Style=Define_an_external_reference_box_style@BPWIN41.hlp>CA Main
+3 Create an External Reference Definition=Create_an_external_reference_definition@BPWIN41.hlp>CA Main
+3 Define External Reference Status=Define_external_reference_status@BPWIN41.hlp>CA Main
+3 Assign External Reference UDP Values=Assign_external_reference_UDP_values@BPWIN41.hlp>CA Main
+3 Change External Reference Font Properties=Change_external_reference_font_properties@BPWIN41.hlp>CA Main
+3 Change External Reference Colors=Change_external_reference_colors@BPWIN41.hlp>CA Main
+3 Define External Reference Source Information=Define_external_reference_source_information@BPWIN41.hlp>CA Main
+3 Assign External Reference Role Values=Assign_external_reference_role_values@BPWIN41.hlp>CA Main
+3 Add an External Reference to a DFD Diagram=Add_an_external_reference_to_a_DFD_diagram@BPWIN41.hlp>CA Main
+1 Junctions
+2 Junction Types in IDEF3 Diagrams
+3 Junction Types in IDEF3 Diagrams=Summary_of_Junction_Types_in_Process_Flow_Diagrams@BPWIN41.hlp>CA Main
+3 Example: Fan-Out Junction=Fan_Out_Junction_Example@BPWIN41.hlp>CA Main
+3 Example: Fan-In Junction=Fan_In_Junction_Example@BPWIN41.hlp>CA Main
+3 Add a Junction to an IDEF3 Diagram=Add_a_Junction_to_an_process_flow_diagram@BPWIN41.hlp>CA Main
+2 Junction Properties
+3 Junction Properties=Junction_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+3 Add a Junction Name=Add_or_change_a_junction_name@BPWIN41.hlp>CA Main
+3 Change a Junction Name=O354430@BPWIN41.hlp>CA Main
+3 Create a Junction Definition=Create_a_junction_definition@BPWIN41.hlp>CA Main
+3 Define Junction Status=Define_junction_status@BPWIN41.hlp>CA Main
+3 Change Junction Font Properties=Change_junction_font_properties@BPWIN41.hlp>CA Main
+3 Change Junction Colors=Change_junction_colors@BPWIN41.hlp>CA Main
+3 Assign Junction UDP Values=Assign_junction_UDP_values@BPWIN41.hlp>CA Main
+3 Change the Junction Type=Change_the_junction_type@BPWIN41.hlp>CA Main
+3 Define Junction Source Information=Define_junction_source_information@BPWIN41.hlp>CA Main
+3 Assign Junction Role Values=Assign_junction_role_values@BPWIN41.hlp>CA Main
+3 Define Junction Box Style=Define_junction_box_style@BPWIN41.hlp>CA Main
+1 Referents
+2 Referent Properties
+3 Referent Properties=Referent_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+3 Add a Referent Name=Add_or_change_a_referent_name@BPWIN41.hlp>CA Main
+3 Change a Referent Name=O354452@BPWIN41.hlp>CA Main
+3 Define a Referent Box Style=Define_a_referent_box_style@BPWIN41.hlp>CA Main
+3 Create a Referent Definition=Create_a_referent_definition@BPWIN41.hlp>CA Main
+3 Define Referent Status=Define_referent_status@BPWIN41.hlp>CA Main
+3 Assign Referent UDP Values=Assign_referent_UDP_values@BPWIN41.hlp>CA Main
+3 Change Referent Font Properties=Change_referent_font_properties@BPWIN41.hlp>CA Main
+3 Change Referent Colors=Change_referent_colors@BPWIN41.hlp>CA Main
+3 Define Referent Source Information=Define_referent_source_information@BPWIN41.hlp>CA Main
+3 Assign Referent Role Values=Assign_referent_role_values@BPWIN41.hlp>CA Main
+3 Add a Referent to an IDEF3 Diagram=Add_a_referent_to_a_process_flow_diagram@BPWIN41.hlp>CA Main
+1 Diagram Text Blocks
+2 Diagram Text Block Properties
+3 Diagram Text Block Properties=Text_Block_Properties_Dialog_Options@BPWIN41.hlp>CA Main
+3 Add a Diagram Text Block=Add_or_change_a_diagram_text_block@BPWIN41.hlp>CA Main
+3 Change a Diagram Text Block=O354471@BPWIN41.hlp>CA Main
+3 Change Diagram Text Block Font Properties=Change_text_block_font_properties@BPWIN41.hlp>CA Main
+3 Change Diagram Text Block Colors=Change_text_block_colors@BPWIN41.hlp>CA Main
+1 User-Defined Properties
+2 User-Defined Properties=Overview_of_User_Defined_Properties_UDP@BPWIN41.hlp>CA Main
+2 Summary of UDP Datatypes=Summary_of_UDP_Datatypes@BPWIN41.hlp>CA Main
+2 UDP Keywords=Overview_of_UDP_Keywords@BPWIN41.hlp>CA Main
+2 Filter UDPs for a Diagram Object=Diagram_Object_UDP_Filter_Dialog_Options@BPWIN41.hlp>CA Main
+2 Example: UDPs for Activities=UDPs_for_Activities@BPWIN41.hlp>CA Main
+2 Example: UDPs for Branches=UDPs_for_Branches@BPWIN41.hlp>CA Main
+2 Example: UDPs for Resources and Other Objects=UDPs_for_Resources_and_other_Objects@BPWIN41.hlp>CA Main
+2 Example: UDPs for Connecting Resources=UDPs_for_Connecting_Resources@BPWIN41.hlp>CA Main
+2 Text UDP List Editor=O255867@BPWIN41.hlp>CA Main
+2 UDP Values
+3 UDP Values=UDP_Values_Dialog_Options@BPWIN41.hlp>CA Main
+3 UDP Values for List Datatypes=Assigning_UDP_Values_for_List_Datatypes@BPWIN41.hlp>CA Main
+3 Assign UDP Values from the Diagram Object Dictionary Editor=Assign_UDP_values_from_the_Diagram_Object_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Assign UDP Values from the Arrow Dictionary Editor=Assign_UDP_values_from_the_Arrow_Dictionary_Editor@BPWIN41.hlp>CA Main
+3 Assign Text Datatype UDP Values=Assigning_UDP_Values_for_the_Text_Datatype@BPWIN41.hlp>CA Main
+3 Assign Paragraph Text Datatype UDP Values=Assigning_UDP_Values_for_the_Paragraph_Text_Datatype@BPWIN41.hlp>CA Main
+3 Assign Integer Datatype UDP Values=Assigning_UDP_Values_for_the_Integer_Datatype@BPWIN41.hlp>CA Main
+3 Assign Command Datatype UDP Values=Assigning_UDP_Values_for_the_Command_Datatype@BPWIN41.hlp>CA Main
+3 Assign Character Datatype UDP Values=Assigning_UDP_Values_for_the_Character_Datatype@BPWIN41.hlp>CA Main
+3 Assign Date Datatype UDP Values=Assigning_UDP_Values_for_the_Date_Datatype@BPWIN41.hlp>CA Main
+3 Assign Real Number Datatype UDP Values=Assigning_UDP_Values_for_the_Real_Number_Datatype@BPWIN41.hlp>CA Main
+1 Import and Export Features
+2 Import and Export File Formats Supported=Importing_and_exporting_AllFusion_PM_data@BPWIN41.hlp>CA Main
+2 Exchanging Information with AllFusion ERwin DM
+3 Exchanging Information with AllFusion ERwin DM=Overview_of_exchanging_information_with_ERwin@BPWIN41.hlp>CA Main
+3 EAX and BPX File Formats=.EAX_and_.BPX_file_formats@BPWIN41.hlp>CA Main
+3 How You Can Import Entity and Attribute Names Using EAX Import
+4 How You Can Import Entity and Attribute Names Using EAX Import=Importing_Entity_and_Attribute_Names_from_ERwin@BPWIN41.hlp>CA Main
+4 Import an EAX File into a Model Using EAX Import=Import_an_ERwin_eax_file_into_an_AllFusionPM_model@BPWIN41.hlp>CA Main
+4 Preview an EAX Import=Preview_an_AllFusion_ERwin_DM_import@BPWIN41.hlp>CA Main
+3 How You Can Export Entity and Attribute Names Using BPX Export
+4 How You Can Export Entity and Attribute Names Using BPX Export=Exporting_Entity_and_Attribute_Names_to_ERwin@BPWIN41.hlp>CA Main
+4 Export Entity and Attribute Information to a Data Model Using BPX Export=Export_AllFusionPM_entity_and_attribute_information_to_ERwin@BPWIN41.hlp>CA Main
+2 Update Entities and Attributes with AllFusion ERwin DM IDs Using the BPX File Format=Update_entities_and_attributes_with_ERwin_IDs_using_the_BPX_file_format@BPWIN41.hlp>CA Main
+3 Remove Links to a Data Model=Removing_links_to_an_AllFusion_ERwin_DM_model@BPWIN41.hlp>CA Main
+3 How You Can Synchronize Models Using the BPX File Format=Synchronizing_AllFusionPM_and_ERwin_Models@BPWIN41.hlp>CA Main
+3 The DM Syncher Option=Using_the_DM_Syncher_Option_to_update_entity_and_attribute_information@BPWIN41.hlp>CA Main
+3 How You Can Synchronize Models Using the DM Syncher Option=O354996@BPWIN41.hlp>CA Main
+3 Update Entity and Attribute Information Using the DM Syncher Option=Update_entity_and_attribute_information_using_the_DM_Syncher_Option@BPWIN41.hlp>CA Main
+3 How You Can Import Entities and Attributes from an AllFusion ERwin DM Dictionary=Importing_Entities_and_Attributes_from_an_ERwin_Dictionary@BPWIN41.hlp>CA Main
+2 Import and Export Dictionary Information
+3 Import and Export Dictionary Information=O222237@BPWIN41.hlp>CA Main
+3 Import Dictionary Information from a Text File=Import_dictionary_information_from_a_text_file@BPWIN41.hlp>CA Main
+3 Export Dictionary Information to a Text File=Export_dictionary_information_to_a_text_file@BPWIN41.hlp>CA Main
+3 Import Basic Activity Information from a Tab-Delimited Text File=Import_basic_activity_information_from_a_tab_delimited_text_file@BPWIN41.hlp>CA Main
+3 Export Basic Activity Information as a Tab-Delimited Text File=Export_basic_activity_information_as_a_tab_delimited_text_file@BPWIN41.hlp>CA Main
+3 Import Basic Arrow Information from a Tab-Delimited Text File=Import_basic_arrow_information_from_a_tab_delimited_text_file@BPWIN41.hlp>CA Main
+3 Export Basic Arrow Information as a Tab-Delimited Text File=Export_basic_arrow_information_as_a_tab_delimited_text_file@BPWIN41.hlp>CA Main
+3 Import Node Tree Information from a Tab-Delimited Text File=Import_node_tree_information_from_a_tab_delimited_text_file@BPWIN41.hlp>CA Main
+3 Export Node Tree Information as a Tab-Delimited Text File=Export_node_tree_information_as_a_tab_delimited_text_file@BPWIN41.hlp>CA Main
+3 Dictionary Import Wizard Dialog Options=Dictionary_Import_Wizard_Dialog_Options@BPWIN41.hlp>CA Main
+3 Dictionary Export Wizard Dialog Options=Dictionary_Export_Wizard_Dialog_Options@BPWIN41.hlp>CA Main
+2 IDL Import and Export Features
+3 IDL Import and Export Features=O222292@BPWIN41.hlp>CA Main
+3 Import an IDL File=Import_an_idl_file@BPWIN41.hlp>CA Main
+3 Export a Model to an IDL File=Export_an_AllFusionPM_model_to_an_idl_file@BPWIN41.hlp>CA Main
+2 XML Format Support
+3 XML Format Support=Using_AllFusion_PM_XML_format@BPWIN41.hlp>CA Main
+3 XML Elements and Attributes
+4 XML Elements and Attributes=AllFusion_PM_XML_Elements_and_Attributes@BPWIN41.hlp>CA Main
+2 Open a Model Saved in XML Format=Open_a_model_saved_in_XML_format@BPWIN41.hlp>CA Main
+3 Save a Model in XML Format=Save_a_model_in_XML_format@BPWIN41.hlp>CA Main
+3 Set XML Export Filter Options=Set_XML_export_filter_options@BPWIN41.hlp>CA Main
+2 Import Costs Using Cost Interfaces
+3 Import Costs Using Cost Interfaces=Using_Cost_Interfaces_to_Import_Costs_into_AllFusion_PM@BPWIN41.hlp>CA Main
+3 Export a Model to Add Cost Information=O355227@BPWIN41.hlp>CA Main
+3 Import a Model to Add Cost Information=O355228@BPWIN41.hlp>CA Main
+3 Import Costs Using Other Programs=O355229@BPWIN41.hlp>CA Main
+2 Import and Export Model Color Palettes
+3 Import and Export Model Color Palettes=O222224@BPWIN41.hlp>CA Main
+3 Import a Model Color Palette=Import_an_AllFusionPM_model_color_palette@BPWIN41.hlp>CA Main
+3 Export a Model Color Palette=Export_an_AllFusionPM_model_color_palette@BPWIN41.hlp>CA Main
+1 Export an IDEF3 Diagram to Arena=Export_an_AllFusionPM_Process_Flow_diagram_to_Arena@BPWIN41.hlp>CA Main
+1 Merge and Split Models
+2 Merge and Split Models=O221474@BPWIN41.hlp>CA Main
+2 Merge Model Feature
+3 Merge Model Feature=Merging_AllFusionPM_Models@BPWIN41.hlp>CA Main
+3 Available Model and Dictionary Merge Options=Summary_of_AllFusionPM_Model_and_Dictionary_Merge_Methods@BPWIN41.hlp>CA Main
+3 Merge Model Requirements=Merge_Model_Requirements@BPWIN41.hlp>CA Main
+3 Merge Two Models Using a Call Arrow or Activity=Merge_two_models_using_a_call_arrow_or_activity@BPWIN41.hlp>CA Main
+3 IDEF0 and DFD Model Merge Summary=Merging_Business_Process_and_DFD_Models@BPWIN41.hlp>CA Main
+3 Merge Models Linked to Different Data Models=Merge_AllFusionPM_models_linked_to_different_ERwin_models@BPWIN41.hlp>CA Main
+2 Split Model Feature
+3 Split Model Feature=Overview_of_Splitting_AllFusion_PM_Models@BPWIN41.hlp>CA Main
+3 Split a Model at an Activity or Call Arrow=Split_a_model_at_an_activity_or_call_arrow@BPWIN41.hlp>CA Main
+3 Overwriting Arrow Data Associations and Data Usage Information=Overwriting_Arrow_Data_Associations_and_Data_Usage_Information@BPWIN41.hlp>CA Main
+2 Merging Model Dictionaries
+3 Merging Model Dictionaries=Overview_of_Merging_Model_Dictionaries@BPWIN41.hlp>CA Main
+3 Merge Model Dictionaries=Merge_model_dictionaries@BPWIN41.hlp>CA Main
+1 Visual Diagram Compare
+2 Visual Diagram Compare=Overview_of_Visual_Diagram_Compare@BPWIN41.hlp>CA Main
+2 Visually Compare Two Diagrams=Visually_Compare_two_AllFusionPM_diagrams@BPWIN41.hlp>CA Main
+1 Open the Add-In Manager=Add_In_Manager@BPWIN41.hlp>CA Main
+1 Reports
+2 Generate an Activity Cost Report=Generate_an_activity_cost_report@BPWIN41.hlp>CA Main
+2 How to Generate an Arrow Report=Generate_an_arrow_report@BPWIN41.hlp>CA Main
+2 Generate a Data Usage Report=Generate_a_Data_Usage_Report@BPWIN41.hlp>CA Main
+2 Generate Diagnostic Dump Reports=Generate_Diagnostic_Dump_Reports@BPWIN41.hlp>CA Main
+2 Generate a Diagram Object Report=Generate_a_diagram_object_report@BPWIN41.hlp>CA Main
+2 Generate a Diagram Report=Generate_a_diagram_report@BPWIN41.hlp>CA Main
+2 Generate a Model Consistency Report=Generate_a_model_consistency_report@BPWIN41.hlp>CA Main
+2 Generate a Model Report=Generate_a_Model_Report@BPWIN41.hlp>CA Main
+2 Generate a Where Used Report=Generate_a_Where_Used_Report@BPWIN41.hlp>CA Main
+2 Preview a Report=Preview_an_AllFusionPM_report@BPWIN41.hlp>CA Main
+2 Change the Printer Setup for Reports=Change_the_printer_setup_for_AllFusionPM_reports@BPWIN41.hlp>CA Main
+1 Data Browser Reports
+2 The Data Browser=DB_The_Data_Browser@BPWIN41.hlp>CA Main
+2 Reports=Reports@BPWIN41.hlp>CA Main
+2 Report Editor=Report_Editor@BPWIN41.hlp>CA Main
+2 Create a Report=DB_Create_a_report@BPWIN41.hlp>CA Main
+2 Edit a Report=Edit_a_report@BPWIN41.hlp>CA Main
+2 Generate a Report Using the Data Browser=Generate_a_report_using_the _Data_Browser@BPWIN41.hlp>CA Main
+2 Generate a Security Report from the Data Browser=O285885@BPWIN41.hlp>CA Main
+2 Create a New Reports File=Create_a_new_Reports_file@BPWIN41.hlp>CA Main
+2 Open a Different Reports File=Open_a_different_Reports_file@BPWIN41.hlp>CA Main
+2 Save Reports in a New Reports File=Save_Reports_in_a_new_Reports_file@BPWIN41.hlp>CA Main
+3 How Icons Identify the Data Browser Tree Control=How_Icons_Identify_the_Data_Browser_Tree_Control@BPWIN41.hlp>CA Main
+3 Navigate and Manage the Data Browser Tree Control=Navigate_and_Manage_the_Data_Browser_Tree_Control@BPWIN41.hlp>CA Main
+3 Collapse All Open Folders in the Tree Control=Collapse_all_open_folders_in_the_tree_control@BPWIN41.hlp>CA Main
+3 Make the Selected Folder the Root Node=Make_the_selected_folder_the_root_node@BPWIN41.hlp>CA Main
+3 Move the Root Node Up One Level=Move_the_root_node_up_one_level@BPWIN41.hlp>CA Main
+3 Create a New Report Folder=Create_a_new_report_folder@BPWIN41.hlp>CA Main
+3 Delete an Item from the Tree Control=Delete_an_item_from_the_tree_control@BPWIN41.hlp>CA Main
+3 Display a History of Generated Result Sets=Display_a_history_of_generated_result_sets@BPWIN41.hlp>CA Main
+3 Customize a Result Set View=Customize_a_Result_Set_View@BPWIN41.hlp>CA Main
+3 Report Format Options=DB_Report_Format_Dialog_Options@BPWIN41.hlp>CA Main
+3 Select the Columns to Include in the Result Set=Select_the_columns_to_include_in_the_result_set@BPWIN41.hlp>CA Main
+3 Change the Column Order of a Result Set=Change_the_order_of_columns_in_a_result_set@BPWIN41.hlp>CA Main
+3 Change the Column Appearance of a Result Set=Change_the_appearance_of_one_or_more_columns_in_a_result_set@BPWIN41.hlp>CA Main
+3 Change a Column Heading in a Result Set=Change_a_column_heading_in_a_result_set@BPWIN41.hlp>CA Main
+3 Display Report Results as Popups=Display_report_results_as_popups@BPWIN41.hlp>CA Main
+3 Sort a Result Set on One or More Columns=Sort_a_result_set_on_one_or_more_columns@BPWIN41.hlp>CA Main
+3 Assign an Icon to a Result Set Value=Assign_an_icon_to_a_result_set_value@BPWIN41.hlp>CA Main
+3 Remove an Icon from a Result Set Value=Remove_an_icon_from_a_result_set_value@BPWIN41.hlp>CA Main
+3 Find Result Set Rows that Match the Specified Search Criteria=Find_result_set_rows_that_match_the_specified_search_criteria@BPWIN41.hlp>CA Main
+3 Find a Change of Value in a Result Set Column=Find_a_change_of_value_in_a_result_set_column@BPWIN41.hlp>CA Main
+3 Hide Result Set Rows that Do Not Match Search Criteria=Hide_result_set_rows_that_do_not_match_search_criteria@BPWIN41.hlp>CA Main
+3 Save a Report View=Save_a_report_view@BPWIN41.hlp>CA Main
+3 Print a Result Set=Print_a_result_set@BPWIN41.hlp>CA Main
+3 Set Print and Page Layout Options=Set_print_and_page_layout_options@BPWIN41.hlp>CA Main
+3 Page Setup Dialog Options=Page_Setup_Dialog_Options@BPWIN41.hlp>CA Main
+3 Preview a Result Set Before Printing=Preview_a_result_set_before_printing@BPWIN41.hlp>CA Main
+3 Export a Result Set=Export_a_result_set@BPWIN41.hlp>CA Main
+3 Exit the Data Browser=Exit_the_Data_Browser@BPWIN41.hlp>CA Main
+1 Workgroup Modeling
+2 Multiuser Environment
+3 Multiuser Environment=Multiuser_Environment@BPWIN41.hlp>CA Main
+3 Security Manages Your License Agreement=Security_Manages_Your_License_Agreement@BPWIN41.hlp>CA Main
+3 How Workgroup Model Management Systems Work=How_Workgroup_Model_Management_Systems_Work@BPWIN41.hlp>CA Main
+3 Display or Hide the AllFusion MM Toolbar=Display_or_Hide_the_MM_Toolbar@BPWIN41.hlp>CA Main
+3 Create a Model from an Existing Template=Create_a_model_from_a_template@BPWIN41.hlp>CA Main
+3 Save a New Model to the Mart=Save_a_new_model_to_the_mart@BPWIN41.hlp>CA Main
+3 Save Your Model Changes to the Mart
+4 Save Your Model Changes to the Mart=Save_your_model_changes_to_the_mart@BPWIN41.hlp>CA Main
+4 Save Model or Submodel Changes to the Mart=Save_model_or_submodel_changes_to_the_mart@BPWIN41.hlp>CA Main
+4 Save a Model Using a Different Name=Save_a_model_using_a_different_name@BPWIN41.hlp>CA Main
+4 Save a Model as a Template=Save_a_model_as_a_template@BPWIN41.hlp>CA Main
+4 Save a Model as an .erwin File=Save_a_model_as_an_ER1_file@BPWIN41.hlp>CA Main
+2 Rename a Model=Rename_a_Model@BPWIN41.hlp>CA Main
+3 Close a Model=Close_a_Model@BPWIN41.hlp>CA Main
+3 Delete a Model=Delete_a_Model@BPWIN41.hlp>CA Main
+3 Move a Model from One Database to Another=Move_a_model_from_one_MM_database_to_another@BPWIN41.hlp>CA Main
+3 Refresh Your Copy of a Model=Refresh_your_copy_of_a_model@BPWIN41.hlp>CA Main
+3 View Active Sessions=View_Active_Sessions@BPWIN41.hlp>CA Main
+3 Terminate a User Session=Terminate_a_user_session@BPWIN41.hlp>CA Main
+1 Connect to the Database=Connect_to_the_Database@BPWIN41.hlp>CA Main
+2 Custom Security Message at Connection=Custom_Security_Message_at _Connection@BPWIN41.hlp>CA Main
+2 Disconnect from AllFusion MM=Disconnect_from_Model_Manager@BPWIN41.hlp>CA Main
+2 Manage the Database
+3 Manage the Database=Manage_the_Database@BPWIN41.hlp>CA Main
+3 Connection Authentication Types=Connection_Authentication_types@BPWIN41.hlp>CA Main
+3 Enable Windows Authentication=Enable_Windows_authentication@BPWIN41.hlp>CA Main
+3 Initialize a New AllFusion MM Mart=Initialize_a_New_Mart@BPWIN41.hlp>CA Main
+3 Delete an AllFusion MM Mart=Delete_a_Mart@BPWIN41.hlp>CA Main
+3 Conversion Methods
+4 Conversion Methods=Conversion_Methods@BPWIN41.hlp>CA Main
+4 Manual Conversion=Manual_Conversion@BPWIN41.hlp>CA Main
+4 Automated Conversion=Automated_Conversion@BPWIN41.hlp>CA Main
+2 Convert an Existing Database=Convert_an_Existing_Database@BPWIN41.hlp>CA Main
+2 Security
+3 Security Permissions
+4 Security Permissions=Security_Permissions@BPWIN41.hlp>CA Main
+4 Inherited Security Permissions=Inherited_Security_Permissions@BPWIN41.hlp>CA Main
+4 Override a User's Inherited Security Permissions=Override_a_users_inherited_security_permissions@BPWIN41.hlp>CA Main
+3 Security Profiles Manage Access to the Database
+4 Security Profiles Manage Access to the Database=Security_Profiles_Manage_Access_to_the_Database@BPWIN41.hlp>CA Main
+4 Open the Security Profile Manager=Open_the_Security_Profile_Manager@BPWIN41.hlp>CA Main
+4 Add a Security Profile=Add_a_security_profile@BPWIN41.hlp>CA Main
+4 Modify a Security Profile Name or Description=Modify_a_security_profile_name_or_description@BPWIN41.hlp>CA Main
+4 Delete a Security Profile=Delete_a_security_profile@BPWIN41.hlp>CA Main
+4 Assign a User to a Security Profile=Assign_a_user_to_a_security_profile@BPWIN41.hlp>CA Main
+4 Assign a Security Profile for a Specific Object=Assign_a_security_profile_for_a_specific_object@BPWIN41.hlp>CA Main
+4 Modify a User's Security Profile=Modify_a_user_security_profile@BPWIN41.hlp>CA Main
+4 Remove a User From a Security Profile=Remove_a_user_from_a_security_profile@BPWIN41.hlp>CA Main
+2 Libraries
+3 Libraries=Libraries@BPWIN41.hlp>CA Main
+3 Non-Archiving Libraries=NonArchiving_Libraries@BPWIN41.hlp>CA Main
+3 Create a Non-Archiving Library=Create_a_non-archiving_Library@BPWIN41.hlp>CA Main
+3 Access the Library Manager=Access_the_Library_Manager@BPWIN41.hlp>CA Main
+3 Add a Library=Add_a_Library@BPWIN41.hlp>CA Main
+3 Rename a Library=Rename_a_Library@BPWIN41.hlp>CA Main
+3 Delete a Library=Delete_a_Library@BPWIN41.hlp>CA Main
+3 Update the Library, Model, Version, or Marked Version=Update_the_library_model_version_or_marked_version@BPWIN41.hlp>CA Main
+2 Submodels
+3 Submodels=Submodels@BPWIN41.hlp>CA Main
+3 Submodel Security=Submodel_Security@BPWIN41.hlp>CA Main
+3 Create a Submodel=Create_a_submodel@BPWIN41.hlp>CA Main
+3 Specify Entities in the Submodel=Specify_Entities_in_the_Submodel@BPWIN41.hlp>CA Main
+3 Rename a Submodel=Rename_a_submodel@BPWIN41.hlp>CA Main
+3 Delete a Submodel=Delete_a_submodel@BPWIN41.hlp>CA Main
+2 Versions
+3 Version Manager=Version_Manager@BPWIN41.hlp>CA Main
+3 Maintain Model Versions=Maintain_Model_Versions@BPWIN41.hlp>CA Main
+3 Open a Version of a Model=Open_a_version_of_a_model@BPWIN41.hlp>CA Main
+3 Save a Parent Model with a New Name=Save_a_Parent_Model_with_a_new_Name@BPWIN41.hlp>CA Main
+3 Purge One or More Versions of a Model=Purge_one_or_more_versions_of_a_model@BPWIN41.hlp>CA Main
+3 Compare Model Versions=Compare_model_versions@BPWIN41.hlp>CA Main
+3 Marked Versions=Marked_Versions@BPWIN41.hlp>CA Main
+3 Create a Marked Version of a Model=Create_a_marked_version_of_a_model@BPWIN41.hlp>CA Main
+3 Open a Marked Version of a Model=Open_a_marked_version_of_a_model@BPWIN41.hlp>CA Main
+2 Model Locking
+3 Model Locking=Model_Locking@BPWIN41.hlp>CA Main
+3 Open a Model or Submodel=Open_a_model_or_submodel@BPWIN41.hlp>CA Main
+3 Toggle List and Detail Views in the Open Dialog=Toggle_List_and_Detail_Views_in_the_Open_dialog@BPWIN41.hlp>CA Main
+2 Reports
+3 The Data Browser  and Workgroup Modeling=The_Data_Browser_and_Workgroup_Modeling@BPWIN41.hlp>CA Main
+3 Data Browser Report Folders=Data_Browser_Report_Folders@BPWIN41.hlp>CA Main
+3 Open the Data Browser=Open_the_Data_Browser@BPWIN41.hlp>CA Main
+3 Report Generation
+4 Report Generation=Report_Generation@BPWIN41.hlp>CA Main
+4 Generate a Report
+5 Generate a Report=Generate_a_MM_report@BPWIN41.hlp>CA Main
+5 Generate a Database Report=Generate_a_Database_Report@BPWIN41.hlp>CA Main
+5 Generate a Security Manager Report=Generate_a_Security_Manager_Report@BPWIN41.hlp>CA Main
+5 Generate a Library Manager Report=Generate_a_Library_Manager_Report@BPWIN41.hlp>CA Main
+5 Generate an AllFusion ERwin DM Report=Generate_an_ERwin_DM_Report@BPWIN41.hlp>CA Main
+5 Generate a Volume Report=Generate_a_Volume_Report@BPWIN41.hlp>CA Main
+5 Generate an Action Summary Report=Generate_an_Action_Summary_Report@BPWIN41.hlp>CA Main
+5 Generate a Report Using a Result Set Row=Generate_a_report_using_a_result_set_row@BPWIN41.hlp>CA Main
+2 View Reports By Category=View_reports_by_category@BPWIN41.hlp>CA Main
+3 View Reports by Object=View_reports_by_object@BPWIN41.hlp>CA Main
+3 Display a Previously Linked Result Set=Display_a_previously_linked_result_set@BPWIN41.hlp>CA Main
+3 Save a Result Set for a New Session=Save_a_result_set_for_a_new_session@BPWIN41.hlp>CA Main
+3 Share AllFusion ERwin DM Reports in AllFusion MM=Shared_ERwin_DM_Reports_in_MM@BPWIN41.hlp>CA Main
+3 Create Shared Reports=Create_Shared_Reports@BPWIN41.hlp>CA Main
+3 Share a Database Report with AllFusion ERwin DM Users=Share_a_Database_Report_with_ERwin_DM_users@BPWIN41.hlp>CA Main
+3 Share an AllFusion ERwin DM Report with AllFusion MM Users=Share_a_ERwin_DM_report_with_MM_users@BPWIN41.hlp>CA Main
+3 Delete a Shared Report in the AllFusion ERwin DM Reports Folder=Delete_a_report_in_the_Shared_ERwin_DM_Reports_folder@BPWIN41.hlp>CA Main
+1 Managing Model Changes
+2 The Change Control Manager
+3 The Change Control Manager=The_Change_Control_Manager@BPWIN41.hlp>CA Main
+3 The AllFusion MM Change Control Manager Toolbar=The_Change_Control_Manager_Toolbar@BPWIN41.hlp>CA Main
+3 Change List Icons=Change_Control_Manager_Change_List_Icons@BPWIN41.hlp>CA Main
+3 AllFusion MM Search For Changes Feature=Search_For_Changes_Feature@BPWIN41.hlp>CA Main
+2 Working With Change Lists
+3 Working With Change Lists=Working_With_Change_Lists@BPWIN41.hlp>CA Main
+3 Change Lists=Change_Control_Manager_Change_Lists@BPWIN41.hlp>CA Main
+3 Filter Changes in a Change List=Filter_changes_in_a_change_list@BPWIN41.hlp>CA Main
+3 Cancel Changes in a Change List=Cancel_changes_in_a_change_list@BPWIN41.hlp>CA Main
+3 View the Currently Selected Search Criteria=View_the_currently_selected_search_criteria@BPWIN41.hlp>CA Main
+3 View Summary Information About a Change List=View_summary_information_about_a_change_list@BPWIN41.hlp>CA Main
+3 Save the Current State of an AllFusion MM Model=Save_the_current_state_of_a_MM_model@BPWIN41.hlp>CA Main
+2 Review Changes to an AllFusion MM Model
+3 Review Changes to an AllFusion MM Model=Review_changes_to_a_model@BPWIN41.hlp>CA Main
+3 Review Changes when Saving a Model to the AllFusion MM Mart=Review_changes_when_saving_a_model_to_MM@BPWIN41.hlp>CA Main
+1 Resolve AllFusion MM Model Change Conflicts=Resolve_model_change_conflicts@BPWIN41.hlp>CA Main
+2 Refresh Your Copy of an AllFusion MM Model=Refresh_your_copy_of_a_model@BPWIN41.hlp>CA Main
+

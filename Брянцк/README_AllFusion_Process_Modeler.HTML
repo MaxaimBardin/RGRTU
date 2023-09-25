@@ -1,0 +1,442 @@
+<HTML>
+<HEAD>
+<title> AllFusion® Process Modeler r7.2.5 Service Pack 1 Readme </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+<!--
+A:link                       { text-decoration: underline; color: #336699  }
+A:active                     { text-decoration: underline; color: #336699  }
+A:hover                     { text-decoration: underline; color: #336699  }
+A:visited                    { text-decoration: underline; color: #336699  }
+BODY                         { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 80%; font-weight: normal; color: 00000  }
+TABLE                        { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 100%; color: 000000; }
+P                            { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000  }
+H1                           { font-size: 180%; font-weight: bold; color: #336699  }
+H2                           { font-size: 155%; font-weight: normal; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+H3                           { font-size: 130%; font-weight: bold; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+H4                           { font-size: 130%; font-weight: bold; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+ol, ul ol, ul ul ol          { list-style-type: decimal; list-style-image : none; }
+ol ol, ul ol ol, ol ul ol    { list-style-type: lower-alpha; list-style-image: none; }
+ul, ol ul, ol ol ul          { list-style-type: square; list-style-image: none; }
+ul ul, ol ul ul, ul ol ul    { list-style-type: disc; list-style-image: none;}
+ul ul ul                     { list-style-type: circle; list-style-image: none; }
+ol ol ol                     { list-style-type: upper-roman; list-style-image: none; }
+p.proceduresubheading, p.examplesubheading {font-weight:bold; }
+B                            { font-weight: bold  }
+STRONG                       { font-weight: bold  }
+I                            { font-style: italic  }
+EM                           { font-style: italic  }
+INPUT                        { color: #336699; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 90%; } /* Special */
+TEXTAREA                     { color: #336699; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 90%; } /* Special */
+BLOCKQUOTE                   { font-size: 80%; }
+PRE                          { font-family: "courier new", courier, monospace; font-size: 100%  }
+table, td                    { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000; vertical-align: top; border: 1px solid #EBEBEB; border-collapse: collapse; font-size: 12px; padding: 2px;}
+table.invis, td.invis        { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000; vertical-align: middle; border: 0px; border-collapse: collapse; font-size: 12px; padding: 2px;}
+th                           { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: bold; color: #000000; vertical-align: top; border: 1px solid #FFFFFF; background-color: #006699; color:#FFFFFF; text-align: left; padding: 2px;}
+tr.alt                       { background-color : #F1F5FA;}
+.computerassoc               { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #FFFFFF; text-decoration: none; background-color: #336699; font-size: 130%; font-weight: bold; }
+.backtotop                   { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699; font-size: 80%; font-weight: bold; text-align: right; text-decoration: underline;}
+.important                   { color: #A02830; }
+hr                           { color: #CCCCCC; height:1px; }
+-->
+</style>
+</HEAD>
+<BODY>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0"><tr><td class="computerassoc">CA</td></tr></table>
+
+<h1>AllFusion® Process Modeler r7.2.5 Service Pack 1 Readme</h1>
+<p>
+<hr>
+<p><b><a href="#t1">1.0  Welcome</a></b>
+<p><b><a href="#t2">2.0  Operating System Support</a></b>
+<p><b><a href="#t3">3.0  System Requirements</a></b>
+<p><b><a href="#t4">4.0  Installation Considerations</a></b>
+<p><b><a href="#t5">5.0  General Considerations</a></b>
+<p><b><a href="#t6">6.0  Known Issues</a></b>
+<p><b><a href="#t7">7.0  Published Fixes</a></b>
+<p><b><a href="#t8">8.0  AllFusion Process Modeler API Sample Application</a></b>
+<br><a href="#t9">8.1  Installation Considerations</a>
+<br>&nbsp;&nbsp;<a href="#t10">8.1.1  Dependencies</a>
+<br>&nbsp;&nbsp;<a href="#t11">8.1.2  Installing the Add-in Component</a>
+<br><a href="#t12">8.2  General Considerations</a>
+<br>&nbsp;&nbsp;<a href="#t13">8.2.1  Published Fixes</a>
+<br>&nbsp;&nbsp;<a href="#t14">8.2.2  Sample Application Files</a>
+<br>&nbsp;&nbsp;<a href="#t15">8.2.3  Using the Sample Application</a>
+<br>&nbsp;&nbsp;<a href="#t16">8.2.4  Model Selection</a>
+<br>&nbsp;&nbsp;<a href="#t17">8.2.5  Project View</a>
+<br>&nbsp;&nbsp;<a href="#t18">8.2.6  Object Modification</a>
+<p><b><a href="#t19">9.0  Documentation</a></b>
+<br><a href="#t20">9.1  Release Numbers on Documentation</a>
+<p><b><a href="#t21">10.0  Contact Technical Support</a></b>
+<p>
+<hr>
+<h2><a name="t1">1.0  Welcome</a></h2>
+<p>Welcome to AllFusion Process Modeler r7.2.5 Service Pack 1,
+a member of the AllFusion Modeling Suite. This file
+contains product installation considerations, operating
+system support, known issues, and information about
+contacting CA Technical Support.</p>
+<p>
+<hr>
+<h2><a name="t2">2.0  Operating System Support</a></h2>
+<p>AllFusion Process Modeler (AllFusion PM) r7.2.5 Service
+Pack 1 requires that you have one of the following
+operating systems installed:</p>
+<ul>
+<li>Microsoft Windows Server 2003</li>
+<p><li>Microsoft Windows XP (Service Pack 2)</li>
+<p><li>Microsoft Windows 2000 (Service Pack 3)</li>
+</ul>
+<p>
+<hr>
+<h2><a name="t3">3.0  System Requirements</a></h2>
+<p>The following requirements must be met or exceeded for
+AllFusion PM r7.2.5 Service Pack 1 to install and run
+correctly:</p>
+<ul>
+<li>Intel Pentium III or equivalent</li>
+<p><li>150 MB hard disk space</li>
+<p><li>1 GB RAM (2 GB recommended for large models)</li>
+</ul>
+<p>
+<hr>
+<h2><a name="t4">4.0  Installation Considerations</a></h2>
+<p>Installation procedures for this release of AllFusion PM
+are in the AllFusion PM <i>User Guide</i>.</p>
+<p>If you intend to share your process models with others
+using AllFusion MM, you must install AllFusion PM on all
+workstations on which the model may be saved or opened.</p>
+<p>If you previously installed a release of AllFusion PM
+Version 4.1.4 (including one of the service packs), the
+AllFusion PM r7.2.5 Service Pack 1 installation program
+does not overwrite it; it installs separately from Version
+4.1.4. This means that if you install r7.2.5 Service Pack 1
+on a machine on which you have installed Version 4.1.4,
+both programs are present.</p>
+<p>If you want to preserve spell checking dictionaries that
+contain user additions from AllFusion PM Version 4.0, do
+not uninstall AllFusion PM Version 4.0 before installing
+AllFusion PM r7.2.5 Service Pack 1. Install AllFusion PM
+r7.2.5 Service Pack 1 in a different folder than AllFusion
+PM Version 4.0. The spell checking dictionaries are copied
+from AllFusion PM Version 4.0 to AllFusion PM r7.2.5
+Service Pack 1 automatically.</p>
+<p>
+<hr>
+<h2><a name="t5">5.0  General Considerations</a></h2>
+<p>This section contains general information you should know
+before using AllFusion PM:</p>
+<ul>
+<li>Support for AllFusion Model Manager
+<p>See the AllFusion MM <i>Readme</i> file and the AllFusion MM
+<i>Administrator Guide</i> for installation instructions and
+advisory notes for using AllFusion MM with AllFusion PM.</p>
+</li>
+<p><li>AllFusion PM API sample application
+<p>Information regarding the sample application that is within
+the AllFusion PM API is no longer contained in the file
+readme_AllFusion_Process_Modeler_Sample_App.html. See the
+section AllFusion Process Modeler API Sample Application
+for this information.</p>
+<p><b>Important!</b> The purpose of the sample application is to
+provide an integrator with an example of a simple AllFusion
+PM API client. It is not a utility or a functioning part of
+AllFusion PM.</p>
+</li>
+</ul>
+<p>
+<hr>
+<h2><a name="t6">6.0  Known Issues</a></h2>
+<p>No known issues at this time.</p>
+<p>
+<hr>
+<h2><a name="t7">7.0  Published Fixes</a></h2>
+<p>All published fixes for this product can be found through
+Published Solutions on SupportConnect.</p>
+<p>
+<hr>
+<h2><a name="t8">8.0  AllFusion Process Modeler API Sample Application</a></h2>
+<h3><a name="t9">8.1  Installation Considerations</a></h3>
+<p>This section describes the installation considerations for
+the sample application.</p>
+<h4><a name="t10">8.1.1  Dependencies</a></h4>
+<p>AllFusion PM r7.2.5 Service Pack 1 must be installed. The
+following components must also be installed and
+successfully registered:</p>
+<ul>
+<li>AllFusion PM API (PM_SCAPI.dll)</li>
+<p><li>Microsoft Data Formatting Object Library (msstdfmt.dll)</li>
+</ul>
+<p><b>Note:</b> The implementation code is only compatible with
+Microsoft Visual Studio 6.0 and not the Microsoft .NET
+development environment.</p>
+<h4><a name="t11">8.1.2  Installing the Add-in Component</a></h4>
+<p>To install the sample application as an add-in component in
+AllFusion PM, follow these steps:</p>
+<ol>
+<li>Register PM_SCAPI_AddinDLL.dll using the program
+regsvr32.exe.
+<p><b>Note:</b> If AllFusion PM was installed using the Complete
+install option, or the PM_SCAPI sample was selected in the
+Custom install option, PM_SCAPI_AddinDLL.dll is already
+registered.</p>
+</li>
+<p><li>Start AllFusion PM.</li>
+<p><li>Open an existing project or create a new one.</li>
+<p><li>Click Add-Ins and then Customize from the Tools menu.
+<p>The Add-In Manager dialog opens.</p>
+</li>
+<p><li>Click the Add Menu Item button.
+<p>The Add New Menu Item dialog opens.</p>
+</li>
+<p><li>Select Command in the Menu Type group, and then select Com
+Object.</li>
+<p><li>Type API Sample in the Name field.
+<p>This will be the name of the menu item in the Tools,
+Add-Ins menu.</p>
+</li>
+<p><li>Type PM_SCAPI_AddinDLL.PM_SCAPIAddin in the COM ProgID
+field or click the browse button to select the ID from a
+list. If PM_SCAPI_AddinDLL.PM_SCAPIAddin does not show up
+in the list, perform step 1 to register
+PM_SCAPI_AddinDLL.dll.</li>
+<p><li>Type Run in the Function Name field.</li>
+<p><li>Click OK to close the Add New Menu Item dialog.</li>
+<p><li>Click Save in the Add-In Manager dialog.</li>
+</ol>
+<p>To test the add-in component, select Tools, Add-Ins, then
+API Sample.</p>
+<h3><a name="t12">8.2  General Considerations</a></h3>
+<h4><a name="t13">8.2.1  Published Fixes</a></h4>
+<p>All published fixes for this product can be found through
+Published Solutions on SupportConnect.</p>
+<h4><a name="t14">8.2.2  Sample Application Files</a></h4>
+<p>The following files are used to implement the sample
+application in Microsoft Visual Basic 6.0:</p>
+<ul>
+<li>DeleteNonScalarValue.frm</li>
+<p><li>Main.bas (used for the standalone executable only)</li>
+<p><li>ModifyObject.frm</li>
+<p><li>NewProject.frm</li>
+<p><li>PM_SCAPI_AddinDll.vbp (Visual Basic project file for the
+add-in component)</li>
+<p><li>PM_SCAPI_Sample_Exe.vbp (Visual Basic project file for the
+standalone executable)</li>
+<p><li>PM_SCAPIAddin.cls (used for the add-in component only)</li>
+<p><li>ProjectView.frm</li>
+<p><li>ProjectView.frx</li>
+<p><li>ReallocateArrayForm.frm</li>
+<p><li>SelectProject.frm</li>
+<p><li>SelectProject.frx</li>
+<p><li>UtilFunctions.bas</li>
+</ul>
+<p>The following files are used to execute the sample
+applications:</p>
+<ul>
+<li>PM_SCAPI_AddinDLL.dll (Add-in component)</li>
+<p><li>PM_SCAPI_Sample_Exe.exe (Standalone executable)</li>
+</ul>
+<h4><a name="t15">8.2.3  Using the Sample Application</a></h4>
+<p>The sample application is provided within the AllFusion
+Process Modeler Script Client API (AllFusion PM API).</p>
+<p class="important"><b>Important! </b>The purpose of the sample application is to
+provide an integrator with an example of a simple AllFusion
+PM API client. It is not a utility or a functioning part of
+AllFusion PM.</p>
+<p>The AllFusion PM API can be used within a standalone
+executable or within an add-in component that is run within
+the environment of AllFusion PM. An example of each type of
+client written in Visual Basic is provided. For more
+information regarding the AllFusion PM API, see the API
+Reference Guide.</p>
+<p>Whether you run the sample application as a standalone
+executable or as an add-in component, the functionality is
+the same. To run the sample application as a standalone
+executable, run PM_SCAPI_Sample_Exe.exe. To view the
+implementation as a standalone executable, load
+PM_SCAPI_Sample_Exe.vbp into Visual Basic. To run the
+sample application as an add-in component, you must install
+the add-in component first if you have not already
+installed it. From the Tools menu within AllFusion PM,
+click Add-Ins, and then API Sample. To view the
+implementation as an add-in component, load
+PM_SCAPI_AddinDLL.vbp into Visual Basic.</p>
+<h4><a name="t16">8.2.4  Model Selection</a></h4>
+<p>The first dialog box of the sample application allows you
+to select the AllFusion PM models to view or to output to a
+text file. If the sample application was invoked as an
+add-in component from within AllFusion PM, the models that
+are currently open are displayed by default. If the sample
+application was invoked as a standalone executable, the
+list of projects is empty at first. All the models listed
+are either displayed or written to a text file. The list of
+models can be modified by creating a new model, adding an
+existing model, or removing a model from the list. The
+functionality of this dialog is implemented in
+SelectProject.frm.</p>
+<p>Select any of the following to modify the list of models:</p>
+<ul>
+<li>Click on Add Project to add an existing model to the list.</li>
+<p><li>Click on Remove Selected Project to remove the selected
+model from the list. This only removes the selected model
+and does not delete it.</li>
+<p><li>Click on New Project to create a new project. Note that
+this project will not be saved unless it is explicitly
+saved in the Project View.</li>
+</ul>
+<p>Select any of the following to perform on the listed models:</p>
+<ul>
+<li>Click on View to display the Project View, which shows the
+models in a tree view.</li>
+<p><li>Click Output to File to export the data in the models to a
+text file.</li>
+<p><li>Click Cancel to exit from the sample application.</li>
+</ul>
+<h4><a name="t17">8.2.5  Project View</a></h4>
+<p>The Project View displays the contents of the selected
+models in a tree view. When an AllFusion PM object is
+selected in the tree view, its properties and property
+values are displayed. The functionality of this dialog is
+implemented in ProjectView.frm.</p>
+<p>The Properties box displays the following information
+regarding each property:</p>
+<ul>
+<li>Name of property</li>
+<p><li>SCAPI property value type</li>
+<p><li>If the property is scalar or non-scalar</li>
+<p><li>Property values</li>
+</ul>
+<p>The following functions can be performed on a model object
+by right-clicking the model object:</p>
+<ul class="normalterm">
+<li class="normalterm">Create new child
+<p class="normaltermcontinued">Lets you create a new child for the selected model object.
+The pull right menu displays the valid children types for
+the selected object.</p>
+</li>
+<li class="normalterm">Modify object
+<p class="normaltermcontinued">Lets you modify the property values of the selected model
+object.</p>
+</li>
+<li class="normalterm">Delete object
+<p class="normaltermcontinued">Lets you delete the selected model object.</p>
+</li>
+<li class="normalterm">Save model
+<p class="normaltermcontinued">Lets you save the model to which the object belongs. This
+saves all modifications to the .bp1 file.</p>
+</li>
+</ul>
+<p>The following function can be performed on an object type
+by right-clicking on the object type:</p>
+<ul class="normalterm">
+<li class="normalterm">Create new object
+<p class="normaltermcontinued">Lets you create a new object of the selected object type.</p>
+</li>
+</ul>
+<p>The Project View also demonstrates the filtering
+capabilities of the AllFusion PM API. The following options
+control what model objects to display or hide in the tree
+view and are listed under Object View Options:</p>
+<ul>
+<li>View all objects</li>
+<p><li>View only user-defined objects. View only objects such as
+UDPs.</li>
+<p><li>Hide user-defined objects. Hides objects such as UDPs.</li>
+</ul>
+<p>The following options control the type of properties to
+display for the selected object. These options are listed
+under Property View Options:</p>
+<ul>
+<li>View all properties</li>
+<p><li>View only scalar properties</li>
+<p><li>View only non-scalar properties</li>
+</ul>
+<p>To close the Project View, click Close. </p>
+<p><b>Note:</b> Any modifications made will not be saved unless the
+model is explicitly saved using the Save command on the
+pop-up menu for a model object.</p>
+<h4><a name="t18">8.2.6  Object Modification</a></h4>
+<p>A dialog displays when a model object is being created or
+modified by using the commands on the pop-up menu in the
+tree view. In this dialog, the property values of the
+object are displayed and can be modified. The functionality
+of this dialog is implemented in ModifyObject.frm.</p>
+<p>In general, most of the properties can be directly modified
+in the text fields. However, there are some special cases
+such as deleting a property value or modifying the number
+of values for a non-scalar property when you use the Edit
+menu instead. The Edit menu provides the following
+functions:</p>
+<ul class="normalterm">
+<li class="normalterm">Reallocate array
+<p class="normaltermcontinued">Lets you change the number of values for a non-scalar
+property. This menu item is only enabled if the selected
+property is non-scalar.</p>
+</li>
+<li class="normalterm">Delete
+<p class="normaltermcontinued">Lets you delete the property. If the property is
+non-scalar, you are prompted to either delete just the
+single value that is selected or to delete all the property
+values.</p>
+</li>
+</ul>
+<p>Click OK to accept the changes. </p>
+<p><b>Note:</b> This will only display the changes in the Project
+View. The modifications will not be saved until the model
+is explicitly saved using the Save command on the pop-up
+menu for a model object.</p>
+<p>Click Cancel to ignore the modifications.</p>
+<p>
+<hr>
+<h2><a name="t19">9.0  Documentation</a></h2>
+<p>Updated guides for this product are available at . </p>
+<p>The PDF guides for this product are as follows:</p>
+<ul>
+<li>AllFusion Process Modeler r7.2 <i>API Reference Guide</i></li>
+<p><li>AllFusion Process Modeler r7.2 <i>User Guide</i></li>
+<p><li>AllFusion Process Modeler r7.2 <i>Business Process Modeling
+Design Guide</i></li>
+<p><li>AllFusion Process Modeler r7.2 <i>Data Flow Diagramming Design
+Guide</i></li>
+<p><li>AllFusion Process Modeler r7.2 <i>Process Flow Modeling Design
+Guide</i></li>
+<p><li>AllFusion Process Modeler r7.2 <i>Release Summary</i></li>
+</ul>
+<p>To view PDF files, you must download and install the Adobe
+Reader from the Adobe website if it is not already
+installed on your computer. </p>
+<h3><a name="t20">9.1  Release Numbers on Documentation</a></h3>
+<p>The release number on the title page of a document might
+not correspond to the current product release number;
+however, all documentation delivered with the product,
+regardless of release number&nbsp;on the title page, will
+support your use of the current product release. The
+release number changes only when a significant portion of a
+document changes to support a new or updated product
+release. If no substantive changes are made to a document,
+the release number does not change. For example, a document
+for r7 may still be valid for r7.1. Documentation
+bookshelves always reflect the current product release
+number. </p>
+<p>Occasionally, we must update documentation outside of a new
+or updated release. To indicate a minor change to the
+documentation that does not invalidate it for any releases
+that it supports, we update the edition number on the cover
+page. First editions do not have an edition number.</p>
+<p>
+<hr>
+<h2><a name="t21">10.0  Contact Technical Support</a></h2>
+<p>For online technical assistance and a complete list of
+locations, primary service hours, and telephone numbers,
+contact Technical Support at <a href="http://www.ca.com/support" target="_blank">http://ca.com/support</a>.</p>
+
+
+
+<hr>
+<font face="Verdana" size=-2>
+Copyright &#0169;&nbsp;2007 CA.
+All rights reserved.
+</font>
+</BODY>
+</HTML>
+

@@ -1,0 +1,479 @@
+<HTML>
+<HEAD>
+<!-- Created with DOC2HTML, v610 (01/12/2007) -->
+<title>AllFusion® Model Manager r7.2.5 Service Pack 1 Readme</title>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=utf-8">
+<style>
+<!--
+A:link                       { text-decoration: underline; font-weight: bold; color: #336699  }
+A:visited                    { text-decoration: underline; font-weight: bold; color: #336699  }
+BODY                         { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 80%; font-weight: normal; color: 00000  }
+TABLE                        { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 100%; color: 000000; }
+P                            { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000  }
+H1                           { font-size: 180%; font-weight: bold; color: #336699  }
+H2                           { font-size: 155%; font-weight: normal; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+H3                           { font-size: 130%; font-weight: bold; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+H4                           { font-size: 130%; font-weight: bold; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+ol, ul ol, ul ul ol          { list-style-type: decimal; list-style-image : none; }
+ol ol, ul ol ol, ol ul ol    { list-style-type: lower-alpha; list-style-image: none; }
+ul, ol ul, ol ol ul          { list-style-type: disc; list-style-image: none; }
+ul ul, ol ul ul, ul ol ul    { list-style-type: circle; list-style-image: none;}
+ul ul ul                     { list-style-type: square; list-style-image: none; }
+ol ol ol                     { list-style-type: upper-roman; list-style-image: none; }
+B                            { font-weight: bold  }
+STRONG                       { font-weight: bold  }
+I                            { font-style: italic  }
+EM                           { font-style: italic  }
+INPUT                        { color: #336699; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 90%; } /* Special */
+TEXTAREA                     { color: #336699; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 90%; } /* Special */
+BLOCKQUOTE                   { font-size: 80%; }
+PRE                          { font-family: "courier new", courier, monospace; font-size: 100%  }
+table, td                    { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000; vertical-align: top; border: 1px solid #EBEBEB; border-collapse: collapse; font-size: 12px; padding: 2px;}
+table.invis, td.invis        { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000; vertical-align: middle; border: 0px; border-collapse: collapse; font-size: 12px; padding: 2px;}
+th                           { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: bold; color: #000000; vertical-align: top; border: 1px solid #FFFFFF; background-color: #006699; color:#FFFFFF; text-align: left; padding: 2px;}
+tr.alt                       { background-color : #F1F5FA;}
+.computerassoc               { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #FFFFFF; text-decoration: none; background-color: #336699; font-size: 130%; font-weight: bold; }
+hr                           { color: #CCCCCC; height:1px; }
+-->
+</style>
+</HEAD>
+<BODY>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0"><tr><td class="computerassoc">CA</td></tr></table>
+<h1><a name="allfusion_model_manager_r7_2_5_service_pack_1_readme">AllFusion<sup>®</sup> Model Manager r7.2.5 Service Pack 1 Readme</a></h1>
+<p>
+<hr>
+<nobr>
+<p><b><a href="#welcome">1.0  Welcome</a></b>
+<p><b><a href="#operating_system_support">2.0  Operating System Support</a></b>
+<p><b><a href="#system_requirements">3.0  System Requirements</a></b>
+<br><a href="#allfusion_mm_administrator_server_requirements">3.1  AllFusion MM Administrator Server Requirements</a>
+<br><a href="#dbms_requirements">3.2  DBMS Requirements</a>
+<br><a href="#client_workstation_requirements">3.3  Client Workstation Requirements</a>
+<p><b><a href="#installation_considerations">4.0  Installation Considerations</a></b>
+<br><a href="#silent_install">4.1  Silent Install</a>
+<br><a href="#requirement_for_connecting_to_microsoft_sql_server_2005">4.2  Requirement for Connecting to Microsoft SQL Server 2005</a>
+<br><a href="#microsoft_sql_server_2005_permissions">4.3  Microsoft SQL Server 2005 Permissions</a>
+<br><a href="#allfusion_mm_client_version_checking">4.4  AllFusion MM Client Version Checking</a>
+<p><b><a href="#general_considerations">5.0  General Considerations</a></b>
+<br><a href="#conversion_information">5.1  Conversion Information</a>
+<br><a href="#conversion_preparation_recommendations">5.2  Conversion Preparation Recommendations</a>
+<br><a href="#conversion_of_allfusion_mm_4_1_4_custom_security_profiles">5.3  Conversion of AllFusion MM 4.1.4 Custom Security Profiles</a>
+<br><a href="#conversion_notes_for_oracle_and_microsoft_sql_server_sybase">5.4  Conversion Notes for Oracle and Microsoft SQL Server/Sybase</a>
+<br><a href="#understanding_complete_compare_differences_after_converting_your_models">5.5  Understanding Complete Compare Differences After Converting Your Models</a>
+<br><a href="#model_display_in_the_difference_reconciliation_dialog">5.6  Model Display in the Difference Reconciliation Dialog</a>
+<br><a href="#features_added_to_improve_complete_compare_performance_with_allfusion_model_manager">5.7  Features Added to Improve Complete Compare Performance with AllFusion Model Manager</a>
+<br><a href="#uninstalling_the_allfusion_mm_administrative_files">5.8  Uninstalling the AllFusion MM Administrative Files</a>
+<p><b><a href="#known_issues">6.0  Known Issues</a></b>
+<br><a href="#sql_1105_error">6.1  SQL 1105 Error</a>
+<p><b><a href="#published_fixes">7.0  Published Fixes</a></b>
+<p><b><a href="#documentation">8.0  Documentation</a></b>
+<br><a href="#release_numbers_on_documentation">8.1  Release Numbers on Documentation</a>
+<p><b><a href="#contact_technical_support">9.0  Contact Technical Support</a></b>
+</nobr>
+<p>
+<hr>
+<h2><a name="welcome">1.0  Welcome</a></h2>
+<p>Welcome to AllFusion Model Manager (AllFusion MM) r7.2.5
+Service Pack 1, a member of the AllFusion Modeling Suite.
+This file contains operating system support, system
+requirements, installation considerations, known issues,
+documentation notes, and information about contacting CA
+Technical Support.
+<p>
+<hr>
+<h2><a name="operating_system_support">2.0  Operating System Support</a></h2>
+<p>AllFusion MM requires that you have one of the following
+operating systems installed:
+<ul>
+<p><li>Microsoft Windows 2003 Server
+<p><li>Microsoft Windows XP Service Pack 2
+<p><li>Microsoft Windows 2000 Service Pack 3
+</ul>
+<p>The following requirements must be met or exceeded for
+AllFusion MM to install and run correctly:
+<ul>
+<p><li>Intel Pentium III or equivalent supported by the Host DBMS
+<p><li>200 MB Hard Disk Space
+<p><li>512 MB RAM
+<p><li>Any operating system supported by the Host DBMS
+</ul>
+<p>
+<hr>
+<h2><a name="system_requirements">3.0  System Requirements</a></h2>
+<p>The following hardware and software requirements must be
+met or exceeded for AllFusion MM r7.2.5 Service Pack 1 to
+install and run correctly:
+<p>
+<hr>
+<h3><a name="allfusion_mm_administrator_server_requirements">3.1  AllFusion MM Administrator Server Requirements</a></h3>
+<p>Verify that the machine where the software and license key
+(the administrator's workstation or file server for
+administrative files) are installed meets the minimum
+requirements summarized below. The disk space required for
+the administrative files used to create and manage the
+database is separate from the disk space required to
+accommodate models on the server where the database is
+located. Greater CPU speed, and more RAM and disk space
+result in better performance.  
+<p><b>Note:</b> While not recommended, the software and license key
+can be installed on the same machine as the database server.
+<ul>
+<p><li>Intel Pentium III or equivalent
+<p><li>100 MB Disk Space
+<p><li>1 GB RAM (2 GB recommended for large models)
+<p><li>Microsoft Windows 2000, XP, 2003 Server Operating System
+<p><b>Note:</b> Greater CPU speed, and more RAM and disk space result
+in better performance. The memory requirement of 512 MB is
+for the minimum size models of only a few entities. Larger
+size models may need greater memory. Experience has shown
+that 1 GB RAM and 500 MB disk space seems to be the most
+effective for our clients.
+</ul>
+<p>
+<hr>
+<h3><a name="dbms_requirements">3.2  DBMS Requirements</a></h3>
+<p>Before you install AllFusion MM, you must use a DBMS
+supported by AllFusion MM as your host server. AllFusion MM
+r7.2.5 Service Pack 1 supports the following host DBMS:
+<ul>
+<p><li>Oracle 8.1.7, 9i and 10g
+<p><li>SQL Server (7.0, 2000/2005)
+<p><li>Sybase 12.x
+</ul>
+<p>The AllFusion MM mart administrator should be the database
+owner (dbo) for Microsoft SQL Server or Sybase, or the
+schema owner for Oracle. Before the administrator can
+install the AllFusion MM mart on the server, they must
+verify that the DBMS environment is prepared for AllFusion
+MM installation, and that the server system requirements
+meet at least the minimum specifications. Additionally, the
+administrator of the DBMS, must set up user permissions for
+the AllFusion MM mart.
+<p><b>Note:</b> The DBA role is necessary only during the
+installation or upgrade. You can strip the installer of the
+DBA role after the installation or upgrade is complete.
+<p>For information preparing the DBMS environment, see the
+AllFusion Model Manager Implementation Guide.
+<p>
+<hr>
+<h3><a name="client_workstation_requirements">3.3  Client Workstation Requirements</a></h3>
+<p>Each client workstation must have access to the DBMS on
+which AllFusion MM is installed. It is recommended that
+client workstations have at least 512 MB of RAM. You must
+also install an AllFusion ERwin Data Modeler (AllFusion
+ERwin DM) and/or AllFusion Process Modeler (AllFusion PM)
+client on each client workstation to use the data modeling
+and multi-user features. AllFusion MM r7.2.5 Service Pack 1
+supports the following client products:
+<ul>
+<p><li>AllFusion<sup>®</sup> ERwin<sup>®</sup> Data Modeler r7.2.5 Service Pack 1
+<p><li>AllFusion<sup>®</sup> Process Modeler r7.2.5 Service Pack 1
+<p><li>AllFusion<sup>®</sup> Model Navigator r7.2.5 Service Pack 1
+<p><li>AllFusion<sup>®</sup> Data Model Validator r7.2.5 Service Pack 1
+</ul>
+<p><b>Note:</b> The memory requirement of 512 MB is for the minimum
+size models of only a few entities. Larger size models may
+need greater memory. Experience has shown that 1 GB RAM
+seems to be the most effective for our clients.
+<p>
+<hr>
+<h2><a name="installation_considerations">4.0  Installation Considerations</a></h2>
+<p>Review the following installation considerations before
+installing the product. See the AllFusion Model Manager
+Implementation guide for more information on the
+installation process.
+<p>
+<hr>
+<h3><a name="silent_install">4.1  Silent Install</a></h3>
+<p>AllFusion MM r7.2.5 Service Pack 1 does not provide an
+unattended or silent install.
+<p>
+<hr>
+<h3><a name="requirement_for_connecting_to_microsoft_sql_server_2005">4.2  Requirement for Connecting to Microsoft SQL Server 2005</a></h3>
+<p>If you are trying to connect to an AllFusion Model Manager
+database which resides on SQL Server 2005 from a machine
+that does not have the SQL Server 2000 client installed,
+you will not be able to connect to AllFusion Model Manager.
+AllFusion Model Manager requires the use of DB-Library for
+connecting to SQL Server databases. SQL Server 2005 no
+longer distributes the DB-Library files, though DB-Library
+is supported for connecting to SQL Server 2005.  
+<p>In order to be able to connect to an AllFusion Model
+Manager database which resides on SQL Server 2005, the file
+NTWDBLIB.DLL needs to be installed to the
+c:\windows\system32 folder on your workstation. If you have
+a SQL Server 2000 installation CD, the SQL Server 2000
+client can be installed from the CD by executing
+sqlredis.exe located on in the \x86\Other folder. If you do
+not have a SQL Server 2000 installation CD, you can find
+the file in a directory named "support" on the root of the
+AllFusion CD.
+<p>
+<hr>
+<h3><a name="microsoft_sql_server_2005_permissions">4.3  Microsoft SQL Server 2005 Permissions</a></h3>
+<p>For SQL Server 2000, you only need to have public assigned
+in order to save to the mart. However, when the repository
+is on an SQL Server 2005 instance, you need to have the
+bulkadmin permission designated as well. The ability to do
+bulk inserts (which was permitted by public, previously) is
+no longer part of the public permission. You must
+explicitly define this permission or when you attempt to
+save a model to a new AllFusion Model Manager instance
+created using an SQL Server 2005 database, an error "You do
+not have permission to use the bulk load statement." is
+returned.
+<p>
+<hr>
+<h3><a name="allfusion_mm_client_version_checking">4.4  AllFusion MM Client Version Checking</a></h3>
+<p>When you connect a client (AllFusion ERwin Data Modeler and
+AllFusion Process Modeler) to an AllFusion MM database, the
+software checks to verify that the client version is
+compatible with the current version of the AllFusion MM
+database. There is a version dependency, however the
+Service Pack version can vary.
+<p>
+<hr>
+<h2><a name="general_considerations">5.0  General Considerations</a></h2>
+<p>This section contains general information you should know
+before using AllFusion MM r7.2.5 Service Pack 1.
+<p>
+<hr>
+<h3><a name="conversion_information">5.1  Conversion Information</a></h3>
+<p>AllFusion MM r7.2.5 Service Pack 1 will be installed into
+the same folders on your hard drive as any previous
+AllFusion Model Manager r7.x product.  Since r7.2.5 Service
+Pack 1 is an upgrade of r7.0, the name will remain
+AllFusion Model Manager r7 on the Start menu, however the
+group name has changed from Computer Associates to CA.
+<p>The following upgrade paths are available for AllFusion MM:
+<ul>
+<p><li>From AllFusion MM 4.1.4 to AllFusion MM r7, r7.1, or r7.2.5
+Service Pack 1
+<p><li>From AllFusion MM r7 to AllFusion MM r7.1 or r7.2.5 Service
+Pack 1
+</ul>
+<p>For users of AllFusion MM 4.1.4, see the Upgrading
+AllFusion MM chapter of the AllFusion Model Manager
+Administrator Guide for more information on converting your
+AllFusion MM 4.1.4 database to an AllFusion MM r7.2.5
+Service Pack 1 database. This guide is in .PDF format, and
+can be opened from the AllFusion Model Manager program
+group (Start, Programs, CA, AllFusion, Model Manager r7,
+AllFusion MM Administrator Guide).
+<p><b>Note:</b> If you are running a version earlier than 4.1.4, you
+need to upgrade to 4.1.4 before you can upgrade to r7.2.5
+Service Pack 1. You must open and save your models in
+AllFusion MM Version 4.1.4 before you can upgrade to
+AllFusion MM r7.2.5 Service Pack 1.
+<p>
+<hr>
+<h3><a name="conversion_preparation_recommendations">5.2  Conversion Preparation Recommendations</a></h3>
+<ol>
+<p><li>Verify that all models to be converted were saved and
+opened in your AllFusion MM 4.1.4 database.
+<p><li>Close all open AllFusion MM 4.1.4 sessions.
+<p><li>Delete any unnecessary models. This reduces the conversion
+time and the amount of space used by the AllFusion MM 4.1.4
+database during the conversion.
+</ol>
+<p>A complete AllFusion MM Pre-Conversion checklist is
+available on <a href="http://www.ca.com/support" target="_blank">http://ca.com/support</a> in the Conversion
+Information Center on the Product Home Page for AllFusion
+Model Manager. Before attempting to convert your ModelMart,
+be sure to read this document. If you need assistance
+during the conversion process, you can open a support issue
+from the support link.
+<p>
+<hr>
+<h3><a name="conversion_of_allfusion_mm_4_1_4_custom_security_profiles">5.3  Conversion of AllFusion MM 4.1.4 Custom Security Profiles</a></h3>
+<p>Enhancements to the AllFusion ERwin DM r7.2.5 Service Pack
+1 meta-model may have an affect on custom security profiles
+that you created in AllFusion MM 4.1.4. If you defined
+custom security profiles or modified existing ones in the
+previous release, review your permissions to ensure that
+your security requirements are met in AllFusion MM r7.2.5
+Service Pack 1.  
+<p>
+<hr>
+<h3><a name="conversion_notes_for_oracle_and_microsoft_sql_server_sybase">5.4  Conversion Notes for Oracle and Microsoft SQL Server/Sybase</a></h3>
+<p>Before you attempt an AllFusion MM 4.1.4 database
+conversion, please note the following.
+<p><b>For Oracle 9i or earlier AllFusion MM 4.1.4 databases:</b>
+<ul>
+<ol>
+<p><li>Make sure you have at least as many rollback segments as
+used by your AllFusion MM 4.1.4 database. We strongly
+recommend that you follow the guidelines in the AllFusion
+Model Manager Administrator Guide.
+<p><li>Before you start a conversion, it is strongly recommended
+that you shrink rollback segments. Below is a sample SQL
+statement (for each segment):
+<p>ALTER ROLLBACK SEGMENT &lt;RBS_NAME&gt; SHRINK;
+</ol>
+</ul>
+<p>
+It is safe to randomly shrink rollback segments while the
+conversion is running, but you must be logged in as the DBA.
+<p><b>For Microsoft SQL Server and Sybase AllFusion MM 4.1.4
+databases:</b>
+<p>
+tempdb should be as big as the AllFusion MM DB size.
+<p>
+<hr>
+<h3><a name="understanding_complete_compare_differences_after_converting_your_models">5.5  Understanding Complete Compare Differences After Converting Your Models</a></h3>
+<p>If you are working with ERwin 4.1.4, you can upgrade a
+model by opening and saving it in r7.2.5 Service Pack 1.
+You can also "round-trip" your r7.2.5 Service Pack 1 model
+by saving it as a 4.1.4 model and opening it again in
+r7.2.5 Service Pack 1. You can use Complete Compare to
+compare the models as you work with them in version 4.1.4
+and r7.2.5 Service Pack 1.
+<p>The technical document "Understanding Complete Compare
+Differences After Converting Your Models" helps you
+understand differences you may encounter in Complete
+Compare when working with 4.1.4 and r7.2.5 Service Pack 1
+models. You can find the document on <a href="http://www.ca.com/support" target="_blank">http://ca.com/support</a>
+in the Conversion Information Center on the Product Home
+Page for AllFusion Model Manager.
+<p>
+<hr>
+<h3><a name="model_display_in_the_difference_reconciliation_dialog">5.6  Model Display in the Difference Reconciliation Dialog</a></h3>
+<p>In a workgroup modeling environment, two users may check
+out and make changes to the same model. The first user may
+make changes to the model and save the changes to the mart.
+When the second modeler makes changes and saves them to the
+mart, the Difference Reconciliation dialog is displayed.
+You use features in this dialog to view the differences on
+the object level, or more detailed property level. You can
+search the text of the comparison lists, and you can
+generate a report of the differences. Note that in the
+Difference Reconciliation Dialog the model in the left pane
+is the current model that you are checking in to the mart.
+The model in the right pane is the version of the model
+already in the mart.  
+<p>
+<hr>
+<h3><a name="features_added_to_improve_complete_compare_performance_with_allfusion_model_manager">5.7  Features Added to Improve Complete Compare Performance with AllFusion Model Manager</a></h3>
+<p>New features have been added to maximize performance when
+working with AllFusion Model Manager models and Complete
+Compare. When two different users check out a model from
+AllFusion Model Manager, change the model, and check it
+back in to the mart, the differences display in the
+Difference Reconciliation dialog (part of the Complete
+Compare user interface).  
+<p>A conflict exists when two users check the same model out
+of the mart, and then change the same object or property.
+When each user checks their models back in to the mart, a
+"three-way merge" is necessary to reconcile the differences
+made by each user, and the unchanged objects and properties
+in the mart. The three-way merge of the models is sometimes
+slow for large models because all objects participate in
+the compare process.
+<p>With r7.2.5 Service Pack 1, this compare functionality has
+changed to reduce the scope of comparison to only objects
+that have changed for both the local and mart version of
+the models. The criteria for detecting changes include the
+following:
+<ul>
+<p><li>Objects that have been created in either the local or the
+mart copy.
+<p><li>Objects that have been deleted or modified in at least one
+of either the local or mart copy.
+</ul>
+<p>Two new options have been added to the Options dialog
+available from the Tools menu. The Model Manager tab of the
+Options dialog now includes the following check boxes:
+<dl>
+<p><dt><b>Bypass Difference Reconciliation Dialog if there are no
+conflicts</b>
+<dd>Select this check box to skip the Difference Reconciliation
+dialog if no conflicts are detected between the version of
+the model in the mart and the local version. If no
+conflicts are detected, the local copy is updated from the
+mart version before the model is saved.
+<p><dt><b>Show All Objects in Difference Reconciliation Dialog</b>
+<dd>Select this check box to turn off the options to optimize
+the compare process. The Difference Reconciliation dialog
+will display all objects including those that were not
+modified in the checked out model and in the mart copy of
+the model.
+</dl>
+<p>
+<hr>
+<h3><a name="uninstalling_the_allfusion_mm_administrative_files">5.8  Uninstalling the AllFusion MM Administrative Files</a></h3>
+<p>You can use the Windows uninstall utility to uninstall the
+AllFusion MM administrative files. However, when you
+uninstall AllFusion MM, the AllFusion MM database remains
+intact. To remove the database from your computer, delete
+the AllFusion MM database first using AllFusion MM Model
+Manager, and then uninstall the AllFusion MM administrative
+files.
+<p>
+<hr>
+<h2><a name="known_issues">6.0  Known Issues</a></h2>
+<p>The following are known issues with this release:
+<p>
+<hr>
+<h3><a name="sql_1105_error">6.1  SQL 1105 Error</a></h3>
+<p>When you are upgrading to AllFusion MM r7.2.5 Service Pack
+1 on Microsoft SQL, during the mart conversion process, you
+may get the message "Sql 1105" if you run out of free hard
+disk space during the process.
+<p>Stop the conversion process, and either free hard disk
+space or add hard disk. You should delete the already
+created r7.2.5 Service Pack 1 AllFusion MM tables and then
+re-attempt the conversion.
+<p>
+<hr>
+<h2><a name="published_fixes">7.0  Published Fixes</a></h2>
+<p>All published fixes for this product can be found through
+Published Solutions on SupportConnect.
+<p>
+<hr>
+<h2><a name="documentation">8.0  Documentation</a></h2>
+<p>Updated guides for this product are available at
+<a target="_blank" href="http://www.ca.com/support">http://ca.com/support</a>.
+<p>PDF guides for this product are as follows:
+<ul>
+<p><li>AllFusion Model Manager Implementation Guide
+(MdlMgr_Impl.pdf)
+<p><li>AllFusion Model Manager Administrator Guide
+(MdlMgr_Admin.pdf)
+<p><li>AllFusion Model Manager Release Summary (MdlMgr_RelSum.pdf)
+</ul>
+<p>To view PDF files, you must download and install the Adobe
+Reader from the Adobe website if it is not already
+installed on your computer.  
+<p>
+<hr>
+<h3><a name="release_numbers_on_documentation">8.1  Release Numbers on Documentation</a></h3>
+<p>The release number on the title page of a document might
+not correspond to the current product release number;
+however, all documentation delivered with the product,
+regardless of release number&nbsp;on the title page, will
+support your use of the current product release. The
+release number changes only when a significant portion of a
+document changes to support a new or updated product
+release. If no substantive changes are made to a document,
+the release number does not change. For example, a document
+for r7 may still be valid for r7.1 or even r8.
+Documentation bookshelves always reflect the current
+product release number.  
+<p>Occasionally, we must update documentation outside of a new
+or updated release. To indicate a minor change to the
+documentation that does not invalidate it for any releases
+that it supports, we update the edition number on the cover
+page. First editions do not have an edition number.
+<p>
+<hr>
+<h2><a name="contact_technical_support">9.0  Contact Technical Support</a></h2>
+<p>For online technical assistance and a complete list of
+locations, primary service hours, and telephone numbers,
+contact Technical Support at <a href="http://www.ca.com/support" target="_blank">http://ca.com/support</a>.
+<p>
+<hr>
+<font size=-2>
+Copyright © 2007 CA. All rights reserved.
+</font>
+</BODY>
+</HTML>

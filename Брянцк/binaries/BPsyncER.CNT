@@ -1,0 +1,9 @@
+:Base BPsyncER.HLP
+1 Overview of the ModelMart Synchronizer=The_ModelMart_Synchronizer>ToDo
+1 Synchronization Rules for ERwin and BPwin Models=Synchronization_Rules_for_ERwin_and_BPwin_Models>Ovr
+1 Synchronizing ERwin and BPwin Models
+2 Start the ModelMart Synchronizer=Start_the_ModelMart_Synchronizer>proc
+2 Step 1: Connect to ModelMart=Connect_to_ModelMart>proc
+2 Step 2: Choose a synchronization operation=Set_the_direction_of_synchronization>proc
+2 Step 3: Choose the files to synchronize=Select_the_BPwin_and_ERwin_models_to_synchronize>proc
+2 Step 4: Run the ModelMart Synchronizer=Run_the_ModelMart_Synchronizer>proc

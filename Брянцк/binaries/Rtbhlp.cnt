@@ -1,0 +1,63 @@
+:Base rtbhlp.hlp>main
+:Title Report Template Builder Table of Contents
+1 Report Template Builder Online Help=O267061@rtbhlp.hlp>CA Main
+1 Legal Notices=O194931@rtbhlp.hlp>CA Main
+1 2006 Product References=O267062@rtbhlp.hlp>CA Main
+1 Contact Technical Support=O104757@rtbhlp.hlp>CA Main
+1 The Report Template Builder
+2 The Report Template Builder=How_You_Use_the_Report_Template_Builder@rtbhlp.hlp>CA Main
+2 Standard Data Model Reports=Standard_Data_Model_Reports@rtbhlp.hlp>CA Main
+2 Standard Business Process Model Reports=Section_and_Property_Trees_in_Business_Process_Model_Report_Templates@rtbhlp.hlp>CA Main
+2 Import an ERP File=Import_an_ERP_File@rtbhlp.hlp>CA Main
+2 Report Templates Dialog=O267066@rtbhlp.hlp>CA Main
+2 How You Use the Report Template Builder Dialog=O267065@rtbhlp.hlp>CA Main
+2 Open a Report Template in the Report Template Builder=Open_a_Report_Template_in_the_Report_Template_Builder@rtbhlp.hlp>CA Main
+2 Open a Report Directory=Open_a_report_folder@rtbhlp.hlp>CA Main
+2 Build a Report Template Using Objects=How_You_Use_Objects_to_Build_a_Report_Template@rtbhlp.hlp>CA Main
+2 Set Template and Object Properties=Set_Template_Properties@rtbhlp.hlp>CA Main
+2 Create a Standards Template in the Report Template Builder=Create_a_Standards_Template_in_the_Report_Template_Builder@rtbhlp.hlp>CA Main
+2 Create a New Report Template in the Report Template Builder=Create_a_New_Report_Template_in_the_Report_Template_Builder@rtbhlp.hlp>CA Main
+2 Edit a Report Template in the Report Template Builder=Edit_a_Report_Template_in_the_Report_Template_Builder@rtbhlp.hlp>CA Main
+2 Delete a Report Template=O267064@rtbhlp.hlp>CA Main
+2 Run a Report in the Report Template Builder=Run_a_Report_in_the_Report_Template_Builder@rtbhlp.hlp>CA Main
+2 Create a Picture Report in the Report Template Builder=Create_a_Picture_Report_in_the_Report_Template_Builder@rtbhlp.hlp>CA Main
+2 Define Properties for an Existing Report Template=Define_Document_Properties_for_the_Current_Report_Template@rtbhlp.hlp>CA Main
+1 Properties Dialog
+2 Properties Dialog=Default_Properties_Settings@rtbhlp.hlp>CA Main
+2 Report Template Builder Macros
+3 Report Template Builder Macros=RTB_Properties_Add_Macros@rtbhlp.hlp>CA Main
+3 Add a Macro to a Report Template=O266999@rtbhlp.hlp>CA Main
+1 Add a Description of Your Report Template=Properties_Dialog_Definition_Tab@rtbhlp.hlp>CA Main
+2 Set Export Properties
+3 Set Export Properties=Properties_Dialog_Export_Tab@rtbhlp.hlp>CA Main
+3 Define Export Properties for an HTML Report=Define_Export_Options_for_the_Generated_Report@rtbhlp.hlp>CA Main
+3 Define Export Properties for a TEXT Report=O266989@rtbhlp.hlp>CA Main
+1 Define the Document Title for Generated Reports=Define_the_Document_Title_for_Generated_Reports@rtbhlp.hlp>CA Main
+2 Define the Document Header for Generated Reports=Define_the_Document_Header_for_Generated_Reports@rtbhlp.hlp>CA Main
+2 Define the Document Footer for Generated Reports=Define_the_Document_Footer_for_Generated_Reports@rtbhlp.hlp>CA Main
+2 Set Properties for a Report Section=O266997@rtbhlp.hlp>CA Main
+2 Set Properties for a Report Table=O267004@rtbhlp.hlp>CA Main
+2 Set Properties for a Report Column Header=O267005@rtbhlp.hlp>CA Main
+2 Set Properties for Report Column Cells=O267006@rtbhlp.hlp>CA Main
+1 Preferences Dialog
+2 Preferences Dialog=O266995@rtbhlp.hlp>CA Main
+2 Set Global Document Title Preferences=O284049@rtbhlp.hlp>CA Main
+2 Set Global Document Header Preferences=O267007@rtbhlp.hlp>CA Main
+2 Set Global Document Footer Preferences=O267009@rtbhlp.hlp>CA Main
+2 Set Global Document Section Preferences=O267010@rtbhlp.hlp>CA Main
+2 Set Global Document Table Title Preferences=O267011@rtbhlp.hlp>CA Main
+2 Set Global Document Column Header Preferences=O267012@rtbhlp.hlp>CA Main
+2 Set Global Document Column Cell Preferences=O267013@rtbhlp.hlp>CA Main
+2 Set Global Document Export Preferences=O266994@rtbhlp.hlp>CA Main
+2 Set Global Document General Preferences=O267014@rtbhlp.hlp>CA Main
+1 Management of Report Results
+2 Management of Report Results=Managing_Report_Results@rtbhlp.hlp>CA Main
+2 Output Formats=Output_Formats@rtbhlp.hlp>CA Main
+2 HTML Report Output Defaults=HTML_Report_Output@rtbhlp.hlp>CA Main
+2 HTML Formatting Options=HTML_Formatting_Options@rtbhlp.hlp>CA Main
+2 How You Publish an HTML Report on a Web Server=Publishing_your_HTML_report_on_a_web_server@rtbhlp.hlp>CA Main
+2 RTF and PDF Report Output Defaults=RTF_Report_Output@rtbhlp.hlp>CA Main
+2 RTF and PDF Formatting Options=RTF_Formatting_Options@rtbhlp.hlp>CA Main
+2 TEXT Report Output Defaults=TEXT_Report_Output@rtbhlp.hlp>CA Main
+2 TEXT Formatting Options=TEXT_Formatting_Options@rtbhlp.hlp>CA Main
+

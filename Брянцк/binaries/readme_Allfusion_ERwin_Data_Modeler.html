@@ -1,0 +1,372 @@
+<HTML>
+<HEAD>
+<!-- Created with DOC2HTML, v611 (02/04/2007) -->
+<title>AllFusion® ERwin® Data Modeler r7.2.5 Service Pack 1</title>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=utf-8">
+<style>
+<!--
+A:link                       { text-decoration: underline; font-weight: bold; color: #336699  }
+A:visited                    { text-decoration: underline; font-weight: bold; color: #336699  }
+BODY                         { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 80%; font-weight: normal; color: 00000  }
+TABLE                        { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 100%; color: 000000; }
+P                            { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000  }
+H1                           { font-size: 180%; font-weight: bold; color: #336699  }
+H2                           { font-size: 155%; font-weight: normal; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+H3                           { font-size: 130%; font-weight: bold; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+H4                           { font-size: 130%; font-weight: bold; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #336699  }
+ol, ul ol, ul ul ol          { list-style-type: decimal; list-style-image : none; }
+ol ol, ul ol ol, ol ul ol    { list-style-type: lower-alpha; list-style-image: none; }
+ul, ol ul, ol ol ul          { list-style-type: disc; list-style-image: none; }
+ul ul, ol ul ul, ul ol ul    { list-style-type: circle; list-style-image: none;}
+ul ul ul                     { list-style-type: square; list-style-image: none; }
+ol ol ol                     { list-style-type: upper-roman; list-style-image: none; }
+B                            { font-weight: bold  }
+STRONG                       { font-weight: bold  }
+I                            { font-style: italic  }
+EM                           { font-style: italic  }
+INPUT                        { color: #336699; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 90%; } /* Special */
+TEXTAREA                     { color: #336699; font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-size: 90%; } /* Special */
+BLOCKQUOTE                   { font-size: 80%; }
+PRE                          { font-family: "courier new", courier, monospace; font-size: 100%  }
+table, td                    { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000; vertical-align: top; border: 1px solid #EBEBEB; border-collapse: collapse; font-size: 12px; padding: 2px;}
+table.invis, td.invis        { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: normal; color: #000000; vertical-align: middle; border: 0px; border-collapse: collapse; font-size: 12px; padding: 2px;}
+th                           { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; font-weight: bold; color: #000000; vertical-align: top; border: 1px solid #FFFFFF; background-color: #006699; color:#FFFFFF; text-align: left; padding: 2px;}
+tr.alt                       { background-color : #F1F5FA;}
+.computerassoc               { font-family: Verdana, "Bitstream Vera Sans", Arial, Helvetica, Sans Serif; color: #FFFFFF; text-decoration: none; background-color: #336699; font-size: 130%; font-weight: bold; }
+hr                           { color: #CCCCCC; height:1px; }
+-->
+</style>
+</HEAD>
+<BODY>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0"><tr><td class="computerassoc">CA</td></tr></table>
+<h1><a name="allfusion_erwin_data_modeler_r7_2_5_service_pack_1">AllFusion<sup>®</sup> ERwin<sup>®</sup> Data Modeler r7.2.5 Service Pack 1</a></h1>
+<p>
+<hr>
+<nobr>
+<p><b><a href="#welcome">1.0  Welcome</a></b>
+<p><b><a href="#operating_system_support">2.0  Operating System Support</a></b>
+<p><b><a href="#system_requirements">3.0  System Requirements</a></b>
+<p><b><a href="#supported_target_server_databases">4.0  Supported Target Server Databases</a></b>
+<p><b><a href="#installation_considerations">5.0  Installation Considerations</a></b>
+<br><a href="#installing_the_visual_studio_team_edition_for_database_professionals_allfusion_erwin_dm_integration">5.1  Installing the Visual Studio Team Edition for Database Professionals - AllFusion ERwin DM Integration</a>
+<br><a href="#installing_api_components">5.2  Installing API Components</a>
+<br><a href="#requirement_for_connecting_to_sql_server_2005">5.3  Requirement for Connecting to SQL Server 2005</a>
+<p><b><a href="#general_considerations">6.0  General Considerations</a></b>
+<br><a href="#template_files_for_customizing_model_explorer_display">6.1  Template Files for Customizing Model Explorer Display</a>
+<br><a href="#multiple_constraints_on_columns">6.2  Multiple Constraints on Columns</a>
+<br><a href="#message_when_reverse_engineering_an_oracle_9i_script">6.3  Message When Reverse Engineering an Oracle 9i Script</a>
+<br><a href="#sybase_check_constraints">6.4  Sybase CHECK Constraints</a>
+<br><a href="#synchronization_limitation_with_visual_studio_and_allfusion_erwin_dm">6.5  Synchronization Limitation With Visual Studio and AllFusion ERwin DM</a>
+<br><a href="#features_added_to_improve_complete_compare_performance_with_allfusion_model_manager">6.6  Features Added to Improve Complete Compare Performance with AllFusion Model Manager</a>
+<p><b><a href="#known_issues">7.0  Known Issues</a></b>
+<p><b><a href="#published_fixes">8.0  Published Fixes</a></b>
+<p><b><a href="#documentation">9.0  Documentation</a></b>
+<br><a href="#release_numbers_on_documentation">9.1  Release Numbers on Documentation</a>
+<p><b><a href="#contact_technical_support">10.0  Contact Technical Support</a></b>
+</nobr>
+<p>
+<hr>
+<h2><a name="welcome">1.0  Welcome</a></h2>
+<p>Welcome to AllFusion ERwin Data Modeler r7.2.5 Service Pack
+1, a member of the AllFusion Modeling Suite. This file
+contains operating system support, system requirements, a
+list of supported target server databases, installation
+considerations, known issues, documentation notes, and
+information about contacting CA Customer Support.
+<p>
+<hr>
+<h2><a name="operating_system_support">2.0  Operating System Support</a></h2>
+<p>AllFusion ERwin Data Modeler requires that you have one of
+the following operating systems installed:
+<ul>
+<p><li>Microsoft Windows 2003 Server
+<p><li>Microsoft Windows XP
+<p><li>Microsoft Windows 2000 Service Pack 3
+</ul>
+<p>Microsoft Visual Studio 2005 Team Edition for Database
+Professionals (Service Release 1), part of the Microsoft
+Visual Studio 2005 Team Suite is required to use the
+integration features with Allfusion ERwin Data Modeler. You
+also must install the Visual Studio Team Edition for DB
+Professionals Power Tools. An option to install these tools
+is provided on the last screen of the AllFusion ERwin DM
+installation wizard.
+<p>
+<hr>
+<h2><a name="system_requirements">3.0  System Requirements</a></h2>
+<p>The following requirements must be met or exceeded for
+AllFusion ERwin DM r7.2.5 Service Pack 1 to install and run
+correctly:
+<ul>
+<p><li>Intel Pentium III or equivalent
+<p><li>400 MB Hard Disk Space
+<p><li>1 GB RAM (2 GB recommended for large models)
+</ul>
+<p>
+<hr>
+<h2><a name="supported_target_server_databases">4.0  Supported Target Server Databases</a></h2>
+<p>The following target server databases are supported in
+AllFusion ERwin Data Modeler r7.2.5 Service Pack 1.
+<ul>
+<p><li>Access (2000/2002/2003)
+<p><li>DB2 iSeries (5.x)
+<p><li>DB2/zOS (7, 8)
+<p><li>DB2/UDB (8.x/9.x)
+<p><li>FoxPro (stabilized support)
+<p><li>Informix (7.x, 9.x/10.x)
+<p><li>Ingres (2.5, 2.6, 2006)
+<p><li>MySql (5.x)
+<p><li>ODBC/Generic (2.0, 3.0)
+<p><li>Oracle (8i, 9.x, 10.x)
+<p><li>Progress (8.x, 9.x/10.x)
+<p><li>Redbrick (stabilized support, 5.x)
+<p><li>SAS (stabilized support)
+<p><li>SQL Server (7.0, 2000, 2005)
+<p><li>Sybase (12.5/15)
+<p><li>Sybase IQ (12.5)
+<p><li>Teradata (2.x)
+</ul>
+<p>
+<hr>
+<h2><a name="installation_considerations">5.0  Installation Considerations</a></h2>
+<p>Review the following installation considerations before
+installing the product.
+<p>
+<hr>
+<h3><a name="installing_the_visual_studio_team_edition_for_database_professionals_allfusion_erwin_dm_integration">5.1  Installing the Visual Studio Team Edition for Database Professionals - AllFusion ERwin DM Integration</a></h3>
+<p>When you run setup for AllFusion ERwin DM r7.2.5 Service
+Pack 1, the installation script checks for a copy of
+Microsoft Visual Studio 2005 Team Edition for Database
+Professionals. If it detects a copy, the integration
+components are automatically installed unless you cancel
+the selection to install the components. You can also
+modify an existing installation of AllFusion ERwin DM
+r7.2.5 Serivce Pack 1 to add the Visual Studio integration.
+See the installation instructions in Chapter 1 of the
+<i>Integration Guide</i>, provided in PDF format in the \Doc
+folder where AllFusion ERwin DM is installed.
+<p>
+<hr>
+<h3><a name="installing_api_components">5.2  Installing API Components</a></h3>
+<p>The AllFusion ERwin Data Modeler API and two related
+components (ERwin SPY, and the ERwin Sample API Client) are
+included in the installation when you choose the Complete
+Setup Type during setup. If you choose the Custom Setup
+Type during setup, you can choose to customize the install
+location, and review the space needed to install each
+feature.
+<p>
+<hr>
+<h3><a name="requirement_for_connecting_to_sql_server_2005">5.3  Requirement for Connecting to SQL Server 2005</a></h3>
+<p>If you are trying to connect to an AllFusion Model Manager
+database which resides on SQL Server 2005 from a machine
+that does not have the SQL Server 2000 client installed,
+you will not be able to connect to AllFusion Model Manager.
+AllFusion Model Manager requires the use of DB-Library for
+connecting to SQL Server databases. SQL Server 2005 no
+longer distributes the DB-Library files, though DB-Library
+is supported for connecting to SQL Server 2005.  
+<p>In order to be able to connect to an AllFusion Model
+Manager database which resides on SQL Server 2005, the file
+NTWDBLIB.DLL needs to be installed to the
+c:\windows\system32 folder on your workstation. If you have
+a SQL Server 2000 installation CD, the SQL Server 2000
+client can be installed from the CD by executing
+sqlredis.exe located on in the \x86\Other folder. If you do
+not have a SQL Server 2000 installation CD, you can find
+the file in a directory named "support" on the root of the
+AllFusion ERwin DM CD.
+<p>
+<hr>
+<h2><a name="general_considerations">6.0  General Considerations</a></h2>
+<p>This section contains general information you should know
+before using AllFusion ERwin Data Modeler r7.2.5 Service
+Pack 1.
+<p>
+<hr>
+<h3><a name="template_files_for_customizing_model_explorer_display">6.1  Template Files for Customizing Model Explorer Display</a></h3>
+<p>Two template files are provided with AllFusion ERwin Data
+Modeler that let you customize the display of object names
+in the Model Explorer. By using macros in the template
+file, you can override the default display of selected
+object names.  
+<p>The file <b>ModelExplorer logical display names.tmpl</b> includes
+display options for the logical model. The file
+<b>ModelExplorer physical display names.tmpl</b> includes display
+options for the physical model. The files are installed to
+the default installation directory for the product
+(C:\Program Files\CA\AllFusion ERwin Data Modeler r7). 
+<p>Comments and a sample macro are provided in the file to
+customize the display of the parent/child relationship
+phrase in the Model Explorer. By default, the display is
+formatted to include the elements &lt;parent name&gt;
+&lt;relationship name&gt; &lt;child name&gt;. You can modify the macro
+to exclude one of the elements, for example if you wanted
+to exclude the parent name in the display.
+<p><b>Note:</b> If you modified the template file with build r7.1,
+note that the syntax in the files has changed. The
+templates no longer use the delimiters "{#" and "#}" to
+enclose text.
+<p>
+<hr>
+<h3><a name="multiple_constraints_on_columns">6.2  Multiple Constraints on Columns</a></h3>
+<p>Support for multiple constraints on columns in SQL Server
+2000 or SQL Server 2005 in an AllFusion ERwin DM model is
+not currently available.
+<p>
+<hr>
+<h3><a name="message_when_reverse_engineering_an_oracle_9i_script">6.3  Message When Reverse Engineering an Oracle 9i Script</a></h3>
+<p>You may encounter an error message when you reverse
+engineer an Oracle 9i script that includes comments that
+are not associated with an object. The reverse engineering
+process does not create a table for such comments. This
+matches the behavior in Oracle, in which properties without
+an associated object are not generated in the physical
+database.
+<p>
+<hr>
+<h3><a name="sybase_check_constraints">6.4  Sybase CHECK Constraints</a></h3>
+<p>CHECK constraints are treated differently in Sybase version
+12.5 and 12.6/12.7. If you forward engineer a model to a
+Sybase 12.5 database, table/column CHECK constraints are
+not enforced, so the UNENFORCED keyword is required.  If
+you forward engineer a model to a Sybase 12.6 or Sybase
+12.7 database, CHECK constraints are enforced, so the
+UNENFORCED keyword is not required.
+<p>AllFusion ERwin DM currently supports Sybase 12.5 syntax.
+For later releases, you must edit the DDL for CHECK
+constraints to successfully execute on the database.
+<p>
+<hr>
+<h3><a name="synchronization_limitation_with_visual_studio_and_allfusion_erwin_dm">6.5  Synchronization Limitation With Visual Studio and AllFusion ERwin DM</a></h3>
+<p>When you add an AllFusion ERwin DM model to a Visual Studio
+project, a connection is established between AllFusion
+ERwin DM and Visual Studio. When you save and close your
+AllFusion ERwin DM model, your changes are made to the
+Visual Studio schema.
+<p>A known problem with the Microsoft Visual Studio API
+results in certain user objects not being renamed or
+deleted from the Visual Studio schema after being renamed
+or deleted in the AllFusion ERwin DM model. This applies to
+objects that are not owned by the schema, such as user,
+database role, partition function, partition scheme, and
+the schema itself. If you rename or delete these objects
+from a model and save your changes, the objects are not
+automatically renamed or deleted in the Visual Studio
+project. You must manually delete the instances of these
+object types from the Visual Studio Schema View. If you do
+not manually modify the Visual Studio schema, the objects
+are automatically repopulated into the AllFusion ERwin DM
+model the next time you open it in Visual Studio.
+<p>This issue will be resolved when an updated API is
+available from Microsoft.
+<p>
+<hr>
+<h3><a name="features_added_to_improve_complete_compare_performance_with_allfusion_model_manager">6.6  Features Added to Improve Complete Compare Performance with AllFusion Model Manager</a></h3>
+<p>New features have been added to maximize performance when
+working with AllFusion Model Manager models and Complete
+Compare. When two different users check out a model from
+AllFusion Model Manager, change the model, and check it
+back in to the mart, the differences display in the
+Difference Reconciliation dialog (part of the Complete
+Compare user interface).  
+<p>A conflict exists when two users check the same model out
+of the mart, and then change the same object or property.
+When each user checks their models back in to the mart, a
+"three-way merge" is necessary to reconcile the differences
+made by each user, and the unchanged objects and properties
+in the mart. The three-way merge of the models is sometimes
+slow for large models because all objects participate in
+the compare process.
+<p>With r7.2.5 Service Pack 1, this compare functionality has
+changed to reduce the scope of comparison to only objects
+that have changed for both the local and mart version of
+the models. The criteria for detecting changes include the
+following:
+<ul>
+<p><li>Objects that have been created in either the local or the
+mart copy.
+<p><li>Objects that have been deleted or modified in at least one
+of either the local or mart copy.
+</ul>
+<p>Two new options have been added to the Options dialog
+available from the Tools menu. The Model Manager tab of the
+Options dialog now includes the following check boxes:
+<dl>
+<p><dt><b>Bypass Difference Reconciliation Dialog if there are no
+conflicts</b>
+<dd>Select this check box to skip the Difference Reconciliation
+dialog if no conflicts are detected between the version of
+the model in the mart and the local version. If no
+conflicts are detected, the local copy is updated from the
+mart version before the model is saved.
+<p><dt><b>Show All Objects in Difference Reconciliation Dialog</b>
+<dd>Select this check box to turn off the options to optimize
+the compare process. The Difference Reconciliation dialog
+will display all objects including those that were not
+modified in the checked out model and in the mart copy of
+the model.
+</dl>
+<p>
+<hr>
+<h2><a name="known_issues">7.0  Known Issues</a></h2>
+<p>There are no known issues for this release.
+<p>
+<hr>
+<h2><a name="published_fixes">8.0  Published Fixes</a></h2>
+<p>All published fixes for this product can be found through
+Published Solutions on SupportConnect.
+<p>
+<hr>
+<h2><a name="documentation">9.0  Documentation</a></h2>
+<p>Updated guides for this product are available at
+<a href="http://www.ca.com/support" target="_blank">http://ca.com/support</a>.
+<p>The PDF guides for this product are as follows:
+<ul>
+<p><li>AllFusion ERwin Data Modeler Implementation Guide
+(<i>ERwin_Impl.PDF</i>)
+<p><li>AllFusion ERwin Data Modeler Methods Guide (<i>ERMethods.PDF</i>)
+<p><li>AllFusion ERwin Data Modeler Release Summary
+(<i>ERwin_RelSum.PDF</i>)
+<p><li>AllFusion ERwin Data Modeler API Reference Guide
+(<i>ERwin_API_Ref.PDF</i>)
+<p><li>AllFusion ERwin Data Modeler and Microsoft Visual Studio
+2005 Team Edition for Database Professionals Integration
+Guide (<i>ERwin_VSDB_Impl.PDF</i>)
+</ul>
+<p>To view PDF files, you must download and install the Adobe
+Reader from the Adobe website if it is not already
+installed on your computer.  
+<p>
+<hr>
+<h3><a name="release_numbers_on_documentation">9.1  Release Numbers on Documentation</a></h3>
+<p>The release number on the title page of a document might
+not correspond to the current product release number;
+however, all documentation delivered with the product,
+regardless of release number&nbsp;on the title page, will
+support your use of the current product release. The
+release number changes only when a significant portion of a
+document changes to support a new or updated product
+release. If no substantive changes are made to a document,
+the release number does not change. For example, a document
+for r7 may still be valid for r7.1 or even r7.2.
+Documentation bookshelves always reflect the current
+product release number.  
+<p>Occasionally, we must update documentation outside of a new
+or updated release. To indicate a minor change to the
+documentation that does not invalidate it for any releases
+that it supports, we update the edition number on the cover
+page. First editions do not have an edition number.
+<p>
+<hr>
+<h2><a name="contact_technical_support">10.0  Contact Technical Support</a></h2>
+<p>For online technical assistance and a complete list of
+locations, primary service hours, and telephone numbers,
+contact Technical Support at <a href="http://www.ca.com/support" target="_blank">http://ca.com/support</a>.
+<p>
+<hr>
+<font size=-2>
+Copyright © 2007 CA. All rights reserved.
+</font>
+</BODY>
+</HTML>
