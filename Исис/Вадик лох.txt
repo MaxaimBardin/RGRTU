@@ -1,0 +1,141 @@
+#include <iostream>
+
+// Функция для вычисления произведения и количества положительных элементов
+void calculateProductAndCount(const int** A, int n, int& product, int& count) {
+    product = 1;
+    count = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (A[i][j] > 0) {
+                product *= A[i][j];
+                count++;
+            }
+        }
+    }
+}
+
+int main() {
+    int n = 4; // Размер массива
+
+    // Создание и инициализация двумерного массива
+    int** A = new int*[n];
+    for (int i = 0; i < n; i++) {
+        A[i] = new int[n];
+        for (int j = 0; j < n; j++) {
+            A[i][j] = i * n + j + 1; // Заполнение массива для примера
+        }
+    }
+
+    int product, count;
+    
+    // Вывод исходного массива A
+    std::cout << "Исходный массив A:" << std::endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            std::cout << A[i][j] << "\t";
+        }
+        std::cout << std::endl;
+    }
+
+    // Вызов функции для вычисления произведения и количества положительных элементов
+    calculateProductAndCount((const int**)A, n, product, count);
+
+    std::cout << "Произведение положительных элементов над побочной диагональю: " << product << std::endl;
+    std::cout << "Количество положительных элементов над побочной диагональю: " << count << std::endl;
+
+    // Освобождение памяти для массива A
+    for (int i = 0; i < n; i++) {
+        delete[] A[i];
+    }
+    delete[] A;
+
+    return 0;
+}
+#include <iostream>
+
+// Функция для вычисления произведения и количества положительных элементов
+void calculateProductAndCount(const int* A, int n, int& product, int& count) {
+    product = 1;
+    count = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (A[i * n + j] > 0) {
+                product *= A[i * n + j];
+                count++;
+            }
+        }
+    }
+}
+
+int main() {
+    int n = 4; // Размер массива
+
+    // Создание и инициализация одномерного массива (представление двумерного массива)
+    int* A = new int[n * n];
+    for (int i = 0; i < n * n; i++) {
+        A[i] = i + 1; // Заполнение массива для примера
+    }
+
+    int product, count;
+
+    // Вывод исходного массива A
+    std::cout << "Исходный массив A:" << std::endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            std::cout << A[i * n + j] << "\t";
+        }
+        std::cout << std::endl;
+    }
+
+    // Вызов функции для вычисления произведения и количества положительных элементов
+    calculateProductAndCount(A, n, product, count);
+
+    std::cout << "Произведение положительных элементов над побочной диагональю: " << product << std::endl;
+    std::cout << "Количество положительных элементов над побочной диагональю: " << count << std::endl;
+
+    // Освобождение памяти для массива A
+    delete[] A;
+
+    return 0;
+}
+#include <iostream>
+
+const int n = 4; // Размер массива
+
+// Функция для вычисления произведения и количества положительных элементов
+void calculateProductAndCount(const int A[n][n], int& product, int& count) {
+    product = 1;
+    count = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (A[i][j] > 0) {
+                product *= A[i][j];
+                count++;
+            }
+        }
+    }
+}
+
+int main() {
+    // Заранее заданный двумерный массив
+    const int A[n][n] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}};
+
+    int product, count;
+
+    // Вывод исходного массива A
+    std::cout << "Исходный массив A:" << std::endl;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            std::cout << A[i][j] << "\t";
+        }
+        std::cout << std::endl;
+    }
+
+    // Вызов функции для вычисления произведения и количества положительных элементов
+    calculateProductAndCount(A, product, count);
+
+    std::cout << "Произведение положительных элементов над побочной диагональю: " << product << std::endl;
+    std::cout << "Количество положительных элементов над побочной диагональю: " << count << std::endl;
+
+    return 0;
+}
